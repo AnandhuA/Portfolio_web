@@ -107,7 +107,7 @@ class ImagePath {
 
   // Disney
   static const String DISNEY_PLUS_COVER =
-      "$projectsDir/disneyplus/disneyplus_cover.png";
+      "assets/images/musiq.jpg";
   static const String DISNEY_PLUS_SCREENS =
       "$projectsDir/disneyplus/mockups.png";
 

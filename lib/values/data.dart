@@ -406,7 +406,7 @@ class Projects {
     title: StringConst.Musiq_PLUS,
     subtitle: StringConst.Musiq_PLUS,
     platform: StringConst.Musiq_PLUS_PLATFORM,
-    primaryColor: AppColors.disneyPlus,
+    primaryColor: AppColors.musiq,
     image: ImagePath.DISNEY_PLUS_COVER,
     coverUrl: ImagePath.DISNEY_PLUS_SCREENS,
     navSelectedTitleColor: AppColors.flutterCatalogSelectedNavTitle,

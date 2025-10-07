@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:portfolio/core/layout/adaptive.dart';
 import 'package:portfolio/core/utils/functions.dart';
 import 'package:portfolio/presentation/pages/home/widgets/home_page_header.dart';
@@ -11,7 +12,6 @@ import 'package:portfolio/presentation/widgets/custom_spacer.dart';
 import 'package:portfolio/presentation/widgets/page_wrapper.dart';
 import 'package:portfolio/presentation/widgets/project_item.dart';
 import 'package:portfolio/presentation/widgets/spaces.dart';
-import 'package:flutter/material.dart';
 import 'package:portfolio/values/values.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:visibility_detector/visibility_detector.dart';
@@ -269,7 +269,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             imageUrl: data[index].image,
             projectItemheight: projectHeight.toDouble(),
             subheight: subHeight.toDouble(),
-            backgroundColor: AppColors.accentColor2.withOpacity(0.35),
+            backgroundColor: AppColors.accentColor2.withValues(alpha: 0.35),
             title: data[index].title.toLowerCase(),
             subtitle: data[index].category,
             containerColor: data[index].primaryColor,
