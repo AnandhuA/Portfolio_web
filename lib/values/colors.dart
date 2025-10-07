@@ -32,7 +32,7 @@ class AppColors {
 
   // Project Primary Colors
   // static const Color disneyPlus = Color(0xFF000000);
-  static const Color musiq = Color(0xFF5A458D);
+  static const Color musiq = Color(0xFF9D6DF7);
 
   static const Color nimbus = Color(0xFFF6C350);
   static const Color nimbusNavTitle = AppColors.black;

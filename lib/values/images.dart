@@ -106,10 +106,10 @@ class ImagePath {
 
 
   // Disney
-  static const String DISNEY_PLUS_COVER =
-      "assets/images/musiq.jpg";
-  static const String DISNEY_PLUS_SCREENS =
-      "$projectsDir/disneyplus/mockups.png";
+  static const String Musiq_COVER =
+      "assets/images/musicbanner.png";
+  static const String Musiq_SCREENS =
+      "assets/images/musicbanner.png";
 
   static const String DISNEY_PLUS_1 =
       "$projectsDir/disneyplus/disneyplus_header.png";
@@ -140,10 +140,10 @@ class ImagePath {
 
 
   // Flutter Catalog
-  static const String FLUTTER_CATALOG_COVER =
-      "$projectsDir/flutter_catalog/flutter_catalog_cover.png";
-  static const String FLUTTER_CATALOG_SCREENS =
-      "$projectsDir/flutter_catalog/screens.png";
+  static const String Netflix_COVER =
+      "assets/images/netflixbg.png";
+  static const String Netflix_SCREENS =
+      "assets/images/netflixbg.png";
 
   static const String FLUTTER_CATALOG_1 =
       "$projectsDir/flutter_catalog/typography.png";

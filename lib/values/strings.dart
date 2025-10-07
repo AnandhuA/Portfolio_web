@@ -139,7 +139,7 @@ class StringConst {
 
   //Skills
   static const String FLUTTER = "Flutter";
-  static const String JETPACK_COMPOSE = "Jetpack Compose";
+  // static const String JETPACK_COMPOSE = "Jetpack Compose";
   static const String JAVA = "Java";
   static const String ANDROID = "Android";
   static const String PYTHON = "Python";
@@ -284,7 +284,7 @@ class StringConst {
   static const String SocialMedia_SUBTITLE =
       "A beautiful SocialMedia mobile application.";
   static const String SocialMedia_DETAIL =
-      "This repository contains the Flutter frontend for a dynamic social media app. The app features a robust chat system using WebSocket for real-time messaging and leverages the BLoC state management package for efficient user interactions. It includes user profiles, news feeds, photo sharing, likes, comments, and notifications to enhance social connectivity and community engagement.";
+      "This repository contains the Flutter frontend for a dynamic social media app. The app features a robust chat system using WebSocket for real-time messaging and leverages the BLoC state management package for efficient user interactions. It includes user profiles, news feeds, photo sharing, likes, comments, and notifications to enhance social connectivity and community engagement.\n\nFeatures\n\nReal-time Messaging: WebSocket-based chat system for instant communication.\nBLoC State Management: Efficient management of app state for seamless user interactions.\nUser Profiles: Personalized profiles with user information and preferences.\nNews Feeds: Stay updated with posts from friends and followed accounts.\nPhoto Sharing: Upload and share photos with the community.\nLikes and Comments: Interact with posts through likes and comments.\nNotifications: Receive alerts for likes, comments, and messages.\n";
   static const String SocialMedia_GITHUB_URL =
       "https://github.com/AnandhuA/SocialMedia.git";
   static const String SocialMedia_PLAYSTORE_URL = " ";
@@ -296,7 +296,7 @@ class StringConst {
   static const String WeatherApp_SUBTITLE =
       "A Flutter project for displaying real-time weather information.";
   static const String WeatherApp_DETAIL =
-      "Current Location Weather: Automatically fetches weather information based on your current location using the Geolocator package.Internationalization: Supports multiple languages and regional settings with the Intl package.State Management: Utilizes the Bloc pattern for efficient and scalable state management.Accurate Weather Data: Provides detailed weather information using the Weather package.";
+      "A Flutter project for displaying real-time weather information.\n\nFeatures\n\nCurrent Location Weather: Automatically fetches weather information based on your current location using the Geolocator package.\nInternationalization: Supports multiple languages and regional settings with the Intl package.\nState Management: Utilizes the Bloc pattern for efficient and scalable state management.\nAccurate Weather Data: Provides detailed weather information using the Weather package.\n";
   static const String WeatherApp_GITHUB_URL =
       "https://github.com/AnandhuA/WeatherApp.git";
   static const String WeatherApp_WEB_URL = " ";
@@ -307,7 +307,7 @@ class StringConst {
   static const String Travel_DESIGNER = "Anandhu.";
   static const String Travel_SUBTITLE = "Flutter-based travel planning app";
   static const String Travel_DETAIL =
-      "This Flutter-based travel planning app is designed to streamline the process of trip planning and exploration. It consists of two sides: an admin side for managing places and a user side for planning trips and documenting experiences.";
+      "This Flutter-based travel planning app is designed to streamline the process of trip planning and exploration. It consists of two sides: an admin side for managing places and a user side for planning trips and documenting experiences.\n\nFeatures\n\nAdmin Side\nAdd new places to the database.\nView a list of all places added.\nUser Side\nView all places added by the admin.\nPlan trips by selecting the duration and category (solo, couple, family, friend).\nCountdown timer for trip start date.\nAdd a checklist for packing.\nTrack expenses such as taxi, food, hotel bills.\nAdd blogs and photos related to the trip.\nFavorite places added by the admin.\nTechnologies Used\nFirebase: Used for managing the admin side, including authentication and storing place data.\nShared Preferences: Used for storing user preferences and trip details locally.\nHive: Used as the local database for storing user data such as checklists and expenses.\nImage Picker: Used for selecting images to upload for trip blogs and photos.\nLottie Animation: Used for adding animations to enhance the user experience.\n";
   static const String Travel_GITHUB_URL =
       "https://github.com/AnandhuA/Travel-.git";
   static const String Travel_PLAYSTORE_URL =
@@ -319,7 +319,7 @@ class StringConst {
   static const String MoneyManagement_SUBTITLE =
       "Flutter-based money management app";
   static const String MoneyManagement_DETAIL =
-      "This is a Flutter-based money management app that helps users track and manage their expenses and income. The app uses the Hive local database for efficient and secure data storage. Users can add transactions, create categories for expenses and income, and gain insights into their financial habits.";
+      "This is a Flutter-based money management app that helps users track and manage their expenses and income. The app uses the Hive local database for efficient and secure data storage. Users can add transactions, create categories for expenses and income, and gain insights into their financial habits.\n\nFeatures\n\nExpense and Income Tracking: Easily track your expenses and income.\nTransaction Management: Add, edit, and delete transactions with ease.\nCategory Creation: Create custom categories for expenses and income to organize your finances better.\nLocal Database: Utilizes Hive local database for fast and secure data storage.\n";
   static const String MoneyManagement_PLAYSTORE_URL = "";
   static const String MoneyManagement_GITHUB_URL =
       "https://github.com/AnandhuA/MoneyManagement.git";
@@ -331,7 +331,7 @@ class StringConst {
   static const String NoteApp_SUBTITLE =
       "Flutter-based note-taking app is powered by a Node.js backend.";
   static const String NoteApp_DETAIL =
-      "This Flutter-based note-taking app is powered by a Node.js backend. It allows users to create, update, and delete notes. The app is built with the Flutter BLoC state management pattern and supports both dark mode and light mode.";
+      "This Flutter-based note-taking app is powered by a Node.js backend. It allows users to create, update, and delete notes. The app is built with the Flutter BLoC state management pattern and supports both dark mode and light mode.\n\nFeatures\n\nCreate new notes.\nUpdate existing notes.\nDelete notes.\nDark mode and light mode support.\nTechnologies Used\nFrontend (Flutter)\nFlutter: Cross-platform framework for building mobile apps.\nFlutter BLoC: State management library for Flutter applications.\nBackend (Node.js)\nNode.js: JavaScript runtime for building server-side applications.\nExpress.js: Web application framework for Node.js.\nCORS: Cross-Origin Resource Sharing middleware for enabling CORS requests.\n";
   static const String NoteApp_PLAYSTORE_URL = "";
   static const String NoteApp_GITHUB_URL =
       "https://github.com/AnandhuA/NoteApp.git";
@@ -354,7 +354,7 @@ class StringConst {
   static const String Musiq_PLUS_SUBTITLE =
       "This Flutter-based music app utilizes BLoC for state management and integrates with the JioSaavn API to fetch and play music";
   static const String Musiq_PLUS_DETAIL =
-      "Discover a seamless music experience with our Flutter-based app! Leveraging BLoC for state management, this app integrates with the JioSaavn API to fetch and play your favorite tracks";
+      "This Flutter-based music app utilizes BLoC for state management and integrates with the JioSaavn API to fetch and play music.Discover a seamless music experience with our Flutter-based app! Leveraging BLoC for state management, this app integrates with the JioSaavn API to fetch and play your favorite tracks \n\nFeatures\n\nAPI Integration: Fetch and display music content from the JioSaavn API.\nBLoC State Management: Uses BLoC (Business Logic Component) for efficient state management and separation of concerns.\nMusic Playback: Supports playing and pausing.\n  \n";
   static const String Musiq_PLUS_PLAYSTORE_URL = "";
   static const String Musiq_PLUS_GITHUB_URL =
       "https://github.com/AnandhuA/Musiq.git";
@@ -364,7 +364,7 @@ class StringConst {
   static const String Netflix_CATALOG_CATEGORY = "Netflix Clone UI Kit.";
   static const String Netflix_CATALOG_SUBTITLE = "Netflix Clone";
   static const String Netflix_CATALOG_DETAIL =
-      "A Flutter application that replicates the Netflix user interface and functionality, utilizing the TMDB (The Movie Database) API to fetch and display movie data.";
+      "A Flutter application that replicates the Netflix user interface and functionality, utilizing the TMDB (The Movie Database) API to fetch and display movie data.\n\nFeatures\n\nBrowse popular movies\nSearch for movies\nView movie details\nResponsive design for both Android and iOS\n";
   static const String Netflix_CATALOG_PLAYSTORE_URL = "";
   static const String Netflix_CATALOG_GITHUB_URL =
       "https://github.com/AnandhuA/Netflix-.git";

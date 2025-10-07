@@ -49,10 +49,10 @@ class RouteConfiguration {
       r'^' + WorksPage.worksPageRoute,
       (context, matches) => const WorksPage(),
     ),
-    // Path(
-    //   r'^' + ProjectDetailPage.projectDetailPageRoute,
-    //   (context, matches) => const ProjectDetailPage(),
-    // ),
+    Path(
+      r'^' + ProjectDetailPage.projectDetailPageRoute,
+      (context, matches) => const ProjectDetailPage(),
+    ),
     // Path(
     //   r'^' + ExperiencePage.experiencePageRoute,
     //   (context, matches) => const ExperiencePage(),
