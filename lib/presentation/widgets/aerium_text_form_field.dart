@@ -1,5 +1,5 @@
-import 'package:aerium/presentation/widgets/empty.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/presentation/widgets/empty.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

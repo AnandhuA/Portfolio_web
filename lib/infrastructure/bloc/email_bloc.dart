@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:aerium/infrastructure/api/email_repository.dart';
+import 'package:portfolio/infrastructure/api/email_repository.dart';
 import 'package:bloc/bloc.dart';
 
 import 'package:freezed_annotation/freezed_annotation.dart';

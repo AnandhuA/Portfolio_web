@@ -1,12 +1,12 @@
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/presentation/pages/widgets/page_header.dart';
-import 'package:aerium/presentation/pages/widgets/simple_footer.dart';
-import 'package:aerium/presentation/widgets/certification_card.dart';
-import 'package:aerium/presentation/widgets/content_area.dart';
-import 'package:aerium/presentation/widgets/custom_spacer.dart';
-import 'package:aerium/presentation/widgets/page_wrapper.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/core/layout/adaptive.dart';
+import 'package:portfolio/core/utils/functions.dart';
+import 'package:portfolio/presentation/pages/widgets/page_header.dart';
+import 'package:portfolio/presentation/pages/widgets/simple_footer.dart';
+import 'package:portfolio/presentation/widgets/certification_card.dart';
+import 'package:portfolio/presentation/widgets/content_area.dart';
+import 'package:portfolio/presentation/widgets/custom_spacer.dart';
+import 'package:portfolio/presentation/widgets/page_wrapper.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 

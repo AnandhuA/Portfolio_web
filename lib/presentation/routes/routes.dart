@@ -1,12 +1,7 @@
-import 'package:aerium/presentation/pages/about/about_page.dart';
-import 'package:aerium/presentation/pages/certification_page.dart';
-import 'package:aerium/presentation/pages/contact_page.dart';
-import 'package:aerium/presentation/pages/experience_page.dart';
-import 'package:aerium/presentation/pages/privacy_policy_page.dart';
-import 'package:aerium/presentation/pages/project_detail/project_detail_page.dart';
-import 'package:aerium/presentation/pages/works/works_page.dart';
+import 'package:portfolio/presentation/pages/contact_page.dart';
+import 'package:portfolio/presentation/pages/home/home_page.dart';
+import 'package:portfolio/presentation/pages/works/works_page.dart';
 import 'package:flutter/material.dart';
-import 'package:aerium/presentation/pages/home/home_page.dart';
 
 typedef PathWidgetBuilder = Widget Function(
     BuildContext, String? /*Map<String, String>*/);
@@ -37,34 +32,34 @@ class RouteConfiguration {
   /// will be returned. This means that the paths higher up in the list will
   /// take priority.
   static List<Path> paths = [
-    Path(
-      r'^' + PrivacyPolicyPage.pageRoute,
-      (context, matches) => const PrivacyPolicyPage(),
-    ),
+    // Path(
+    //   r'^' + PrivacyPolicyPage.pageRoute,
+    //   (context, matches) => const PrivacyPolicyPage(),
+    // ),
     Path(
       r'^' + ContactPage.contactPageRoute,
       (context, matches) => const ContactPage(),
     ),
-    Path(
-      r'^' + AboutPage.aboutPageRoute,
-      (context, matches) => const AboutPage(),
-    ),
+    // Path(
+    //   r'^' + AboutPage.aboutPageRoute,
+    //   (context, matches) => const AboutPage(),
+    // ),
     Path(
       r'^' + WorksPage.worksPageRoute,
       (context, matches) => const WorksPage(),
     ),
-    Path(
-      r'^' + ProjectDetailPage.projectDetailPageRoute,
-      (context, matches) => const ProjectDetailPage(),
-    ),
-    Path(
-      r'^' + ExperiencePage.experiencePageRoute,
-      (context, matches) => const ExperiencePage(),
-    ),
-    Path(
-      r'^' + CertificationPage.certificationPageRoute,
-      (context, matches) => const CertificationPage(),
-    ),
+    // Path(
+    //   r'^' + ProjectDetailPage.projectDetailPageRoute,
+    //   (context, matches) => const ProjectDetailPage(),
+    // ),
+    // Path(
+    //   r'^' + ExperiencePage.experiencePageRoute,
+    //   (context, matches) => const ExperiencePage(),
+    // ),
+    // Path(
+    //   r'^' + CertificationPage.certificationPageRoute,
+    //   (context, matches) => const CertificationPage(),
+    // ),
     Path(
       r'^' + HomePage.homePageRoute,
       (context, matches) => HomePage(),

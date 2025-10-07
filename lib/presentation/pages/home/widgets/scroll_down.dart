@@ -1,5 +1,5 @@
-import 'package:aerium/presentation/widgets/spaces.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/presentation/widgets/spaces.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 
 class ScrollDownButton extends StatelessWidget {

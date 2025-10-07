@@ -1,16 +1,16 @@
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/presentation/pages/home/widgets/scroll_down.dart';
-import 'package:aerium/presentation/pages/widgets/socials.dart';
-import 'package:aerium/presentation/pages/works/works_page.dart';
-import 'package:aerium/presentation/widgets/animated_bubble_button.dart';
-import 'package:aerium/presentation/widgets/animated_line_through_text.dart';
-import 'package:aerium/presentation/widgets/animated_positioned_text.dart';
-import 'package:aerium/presentation/widgets/animated_positioned_widget.dart';
-import 'package:aerium/presentation/widgets/animated_slide_transtion.dart';
-import 'package:aerium/presentation/widgets/animated_text_slide_box_transition.dart';
-import 'package:aerium/presentation/widgets/spaces.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/core/layout/adaptive.dart';
+import 'package:portfolio/core/utils/functions.dart';
+import 'package:portfolio/presentation/pages/home/widgets/scroll_down.dart';
+import 'package:portfolio/presentation/pages/widgets/socials.dart';
+import 'package:portfolio/presentation/pages/works/works_page.dart';
+import 'package:portfolio/presentation/widgets/animated_bubble_button.dart';
+import 'package:portfolio/presentation/widgets/animated_line_through_text.dart';
+import 'package:portfolio/presentation/widgets/animated_positioned_text.dart';
+import 'package:portfolio/presentation/widgets/animated_positioned_widget.dart';
+import 'package:portfolio/presentation/widgets/animated_slide_transtion.dart';
+import 'package:portfolio/presentation/widgets/animated_text_slide_box_transition.dart';
+import 'package:portfolio/presentation/widgets/spaces.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -159,10 +159,10 @@ class _HomePageHeaderState extends State<HomePageHeader>
                               width: screenWidth,
                             ),
                           ),
-                          Image.asset(
-                            ImagePath.DEV_MEDITATE,
-                            width: screenWidth,
-                          ),
+                          // Image.asset(
+                          //   ImagePath.DEV_MEDITATE,
+                          //   width: screenWidth,
+                          // ),
                         ],
                       ),
                     ),
@@ -208,10 +208,10 @@ class _HomePageHeaderState extends State<HomePageHeader>
                               width: screenWidth * 0.35,
                             ),
                           ),
-                          Image.asset(
-                            ImagePath.DEV_MEDITATE,
-                            width: screenWidth * 0.35,
-                          ),
+                          // Image.asset(
+                          //   ImagePath.DEV_MEDITATE,
+                          //   width: screenWidth * 0.35,
+                          // ),
                         ],
                       ),
                     ),

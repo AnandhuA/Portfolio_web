@@ -1,13 +1,13 @@
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/core/utils/functions.dart';
-import 'package:aerium/presentation/widgets/animated_bubble_button.dart';
-import 'package:aerium/presentation/widgets/animated_positioned_text.dart';
-import 'package:aerium/presentation/widgets/animated_positioned_widget.dart';
-import 'package:aerium/presentation/widgets/animated_text_slide_box_transition.dart';
-import 'package:aerium/presentation/widgets/empty.dart';
-import 'package:aerium/presentation/widgets/project_item.dart';
-import 'package:aerium/presentation/widgets/spaces.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/core/layout/adaptive.dart';
+import 'package:portfolio/core/utils/functions.dart';
+import 'package:portfolio/presentation/widgets/animated_bubble_button.dart';
+import 'package:portfolio/presentation/widgets/animated_positioned_text.dart';
+import 'package:portfolio/presentation/widgets/animated_positioned_widget.dart';
+import 'package:portfolio/presentation/widgets/animated_text_slide_box_transition.dart';
+import 'package:portfolio/presentation/widgets/empty.dart';
+import 'package:portfolio/presentation/widgets/project_item.dart';
+import 'package:portfolio/presentation/widgets/spaces.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 
 List<String> titles = [

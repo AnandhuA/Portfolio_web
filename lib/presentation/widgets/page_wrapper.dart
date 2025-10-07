@@ -1,9 +1,9 @@
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/presentation/pages/home/home_page.dart';
-import 'package:aerium/presentation/pages/widgets/nav_bar.dart';
-import 'package:aerium/presentation/widgets/app_drawer.dart';
-import 'package:aerium/presentation/widgets/empty.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/core/layout/adaptive.dart';
+import 'package:portfolio/presentation/pages/home/home_page.dart';
+import 'package:portfolio/presentation/pages/widgets/nav_bar.dart';
+import 'package:portfolio/presentation/widgets/app_drawer.dart';
+import 'package:portfolio/presentation/widgets/empty.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 
 import 'loading_slider.dart';

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:aerium/infrastructure/failures/email_failure.dart';
+import 'package:portfolio/infrastructure/failures/email_failure.dart';
 import 'package:http/http.dart' as http;
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/values/values.dart';
 
 import 'email_model.dart';
 

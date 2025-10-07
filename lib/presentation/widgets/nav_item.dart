@@ -1,5 +1,5 @@
-import 'package:aerium/core/layout/adaptive.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/core/layout/adaptive.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
 
 import 'animated_line_through_text.dart';

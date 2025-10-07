@@ -1,9 +1,9 @@
-import 'package:aerium/injection_container.dart';
+import 'package:portfolio/injection_container.dart';
 import 'package:flutter/material.dart';
-import 'package:aerium/app_theme.dart';
-import 'package:aerium/presentation/pages/home/home_page.dart';
-import 'package:aerium/presentation/routes/routes.dart';
-import 'package:aerium/values/values.dart';
+import 'package:portfolio/app_theme.dart';
+import 'package:portfolio/presentation/pages/home/home_page.dart';
+import 'package:portfolio/presentation/routes/routes.dart';
+import 'package:portfolio/values/values.dart';
 import 'package:layout/layout.dart';
 
 import 'configure_web.dart';

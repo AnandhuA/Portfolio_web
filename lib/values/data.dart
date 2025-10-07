@@ -91,16 +91,16 @@ class SubMenuData {
 class Data {
   static List<NavItemData> menuItems = [
     NavItemData(name: StringConst.HOME, route: StringConst.HOME_PAGE),
-    NavItemData(name: StringConst.ABOUT, route: StringConst.ABOUT_PAGE),
+    // NavItemData(name: StringConst.ABOUT, route: StringConst.ABOUT_PAGE),
     NavItemData(name: StringConst.WORKS, route: StringConst.WORKS_PAGE),
-    NavItemData(
-      name: StringConst.EXPERIENCE,
-      route: StringConst.EXPERIENCE_PAGE,
-    ),
-    NavItemData(
-      name: StringConst.CERTIFICATIONS,
-      route: StringConst.CERTIFICATION_PAGE,
-    ),
+    // NavItemData(
+    //   name: StringConst.EXPERIENCE,
+    //   route: StringConst.EXPERIENCE_PAGE,
+    // ),
+    // NavItemData(
+    //   name: StringConst.CERTIFICATIONS,
+    //   route: StringConst.CERTIFICATION_PAGE,
+    // ),
     NavItemData(name: StringConst.CONTACT, route: StringConst.CONTACT_PAGE),
   ];
 
@@ -116,20 +116,25 @@ class Data {
       url: StringConst.LINKED_IN_URL,
     ),
     SocialData(
-      name: StringConst.TWITTER,
-      iconData: FontAwesomeIcons.twitter,
-      url: StringConst.TWITTER_URL,
-    ),
-    SocialData(
       name: StringConst.INSTAGRAM,
       iconData: FontAwesomeIcons.instagram,
       url: StringConst.INSTAGRAM_URL,
     ),
-    SocialData(
-      name: StringConst.TELEGRAM,
-      iconData: FontAwesomeIcons.telegram,
-      url: StringConst.TELEGRAM_URL,
-    ),
+    // SocialData(
+    //   name: StringConst.TWITTER,
+    //   iconData: FontAwesomeIcons.twitter,
+    //   url: StringConst.TWITTER_URL,
+    // ),
+    // SocialData(
+    //   name: StringConst.INSTAGRAM,
+    //   iconData: FontAwesomeIcons.instagram,
+    //   url: StringConst.INSTAGRAM_URL,
+    // ),
+    // SocialData(
+    //   name: StringConst.TELEGRAM,
+    //   iconData: FontAwesomeIcons.telegram,
+    //   url: StringConst.TELEGRAM_URL,
+    // ),
   ];
 
   static List<String> mobileTechnologies = [
@@ -179,11 +184,11 @@ class Data {
       iconData: FontAwesomeIcons.linkedin,
       url: StringConst.LINKED_IN_URL,
     ),
-    SocialData(
-      name: StringConst.TWITTER,
-      iconData: FontAwesomeIcons.twitter,
-      url: StringConst.TWITTER_URL,
-    ),
+    // SocialData(
+    //   name: StringConst.TWITTER,
+    //   iconData: FontAwesomeIcons.twitter,
+    //   url: StringConst.TWITTER_URL,
+    // ),
   ];
 
   static List<SocialData> socialData2 = [
@@ -192,21 +197,21 @@ class Data {
       iconData: FontAwesomeIcons.linkedin,
       url: StringConst.LINKED_IN_URL,
     ),
-    SocialData(
-      name: StringConst.TWITTER,
-      iconData: FontAwesomeIcons.twitter,
-      url: StringConst.TWITTER_URL,
-    ),
+    // SocialData(
+    //   name: StringConst.TWITTER,
+    //   iconData: FontAwesomeIcons.twitter,
+    //   url: StringConst.TWITTER_URL,
+    // ),
     SocialData(
       name: StringConst.INSTAGRAM,
       iconData: FontAwesomeIcons.instagram,
       url: StringConst.INSTAGRAM_URL,
     ),
-    SocialData(
-      name: StringConst.TELEGRAM,
-      iconData: FontAwesomeIcons.telegram,
-      url: StringConst.TELEGRAM_URL,
-    ),
+    // SocialData(
+    //   name: StringConst.TELEGRAM,
+    //   iconData: FontAwesomeIcons.telegram,
+    //   url: StringConst.TELEGRAM_URL,
+    // ),
   ];
 
   static List<ProjectItemData> recentWorks = [
