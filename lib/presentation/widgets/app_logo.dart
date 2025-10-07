@@ -1,10 +1,10 @@
-import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/values/values.dart';
 
 class AppLogo extends StatelessWidget {
   const AppLogo({
     Key? key,
-    this.title = "DC",
+    this.title = "An",
     this.titleColor = AppColors.black,
     this.titleStyle,
     this.fontSize = 60,

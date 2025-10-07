@@ -277,100 +277,97 @@ class StringConst {
       "https://github.com/david-legend/david-legend.github.io";
   static const String PORTFOLIO_SITE_V2_WEB_URL = "https://davidcobbina.com/";
 
-  static const String DROP = "Drop";
-  static const String DROP_PLATFORM = "Android / IOS.";
-  static const String DROP_CATEGORY = "Ecommerce.";
-  static const String DROP_DESIGNER = "Stepan Slobodiansky.";
-  static const String DROP_SUBTITLE =
-      "A beautiful ecommerce mobile application.";
-  static const String DROP_DETAIL =
-      "Drop is an online store which provides users with a simple, smooth experience and enabling users to get their hands on the latest and newest drops.";
-  static const String DROP_GITHUB_URL = "https://github.com/david-legend/drop";
-  static const String DROP_PLAYSTORE_URL =
-      "https://play.google.com/store/apps/details?id=com.davidcobbina.drop";
+  static const String SocialMedia = "SocialMedia";
+  static const String SocialMedia_PLATFORM = "Android / IOS.";
+  static const String SocialMedia_CATEGORY = "SocialMedia.";
+  static const String SocialMedia_DESIGNER = "Anandhu.";
+  static const String SocialMedia_SUBTITLE =
+      "A beautiful SocialMedia mobile application.";
+  static const String SocialMedia_DETAIL =
+      "This repository contains the Flutter frontend for a dynamic social media app. The app features a robust chat system using WebSocket for real-time messaging and leverages the BLoC state management package for efficient user interactions. It includes user profiles, news feeds, photo sharing, likes, comments, and notifications to enhance social connectivity and community engagement.";
+  static const String SocialMedia_GITHUB_URL =
+      "https://github.com/AnandhuA/SocialMedia.git";
+  static const String SocialMedia_PLAYSTORE_URL = " ";
 
-  static const String NIMBUS = "Nimbus";
-  static const String NIMBUS_PLATFORM = "Web.";
-  static const String NIMBUS_CATEGORY = "Portfolio / CV.";
-  static const String NIMBUS_DESIGNER = "Web Genius Labs.";
-  static const String NIMBUS_SUBTITLE =
-      "Nimbus (Portfolio & CV), a beautifully designed portfolio website.";
-  static const String NIMBUS_DETAIL =
-      "Nimbus is a beautifully designed Portfolio & CV website built with flutter";
-  static const String NIMBUS_GITHUB_URL =
-      "https://github.com/david-legend/nimbus";
-  static const String NIMBUS_WEB_URL = "https://david-legend.github.io/nimbus/";
+  static const String WeatherApp = "WeatherApp";
+  static const String WeatherApp_PLATFORM = "Android / IOS.";
+  static const String WeatherApp_CATEGORY = "WeatherApp";
+  static const String WeatherApp_DESIGNER = "Anandhu";
+  static const String WeatherApp_SUBTITLE =
+      "A Flutter project for displaying real-time weather information.";
+  static const String WeatherApp_DETAIL =
+      "Current Location Weather: Automatically fetches weather information based on your current location using the Geolocator package.Internationalization: Supports multiple languages and regional settings with the Intl package.State Management: Utilizes the Bloc pattern for efficient and scalable state management.Accurate Weather Data: Provides detailed weather information using the Weather package.";
+  static const String WeatherApp_GITHUB_URL =
+      "https://github.com/AnandhuA/WeatherApp.git";
+  static const String WeatherApp_WEB_URL = " ";
 
-  static const String ROAM = "Roam";
-  static const String ROAM_PLATFORM = "Android / IOS.";
-  static const String ROAM_CATEGORY = "Travel.";
-  static const String ROAM_DESIGNER = "Georgina Sekyi.";
-  static const String ROAM_SUBTITLE =
-      "UI / UX Case study for a travel advisory app.";
-  static const String ROAM_DETAIL =
-      "Roam is a UI / UX Case study for a travel advisory app done by Georgina Sekyi and built by me using flutter.";
-  static const String ROAM_GITHUB_URL = "https://github.com/david-legend/roam";
-  static const String ROAM_PLAYSTORE_URL =
-      "https://play.google.com/store/apps/details?id=com.davidcobbina.roam";
+  static const String Travel = "TravelMate";
+  static const String Travel_PLATFORM = "Android / IOS.";
+  static const String Travel_CATEGORY = "Travel.";
+  static const String Travel_DESIGNER = "Anandhu.";
+  static const String Travel_SUBTITLE = "Flutter-based travel planning app";
+  static const String Travel_DETAIL =
+      "This Flutter-based travel planning app is designed to streamline the process of trip planning and exploration. It consists of two sides: an admin side for managing places and a user side for planning trips and documenting experiences.";
+  static const String Travel_GITHUB_URL =
+      "https://github.com/AnandhuA/Travel-.git";
+  static const String Travel_PLAYSTORE_URL =
+      "https://play.google.com/store/apps/details?id=in.FlutterCarftStudios.travel_app";
 
-  static const String LOGIN_CATALOG = "Login Catalog";
-  static const String LOGIN_CATALOG_PLATFORM = "Android / IOS.";
-  static const String LOGIN_CATALOG_CATEGORY = "UI Kit.";
-  static const String LOGIN_CATALOG_SUBTITLE =
-      "A beautiful catalog of login designs";
-  static const String LOGIN_CATALOG_DETAIL =
-      "Login Catalog is a beautiful catalog of login designs built with flutter. The goal is to catalog as many as a 1000 different login/Signup designs to help flutter devs get right to the most important part of their app.";
-  static const String LOGIN_CATALOG_PLAYSTORE_URL =
-      "https://play.google.com/store/apps/details?id=dev.davidcobbina.logincatalog";
-  static const String LOGIN_CATALOG_GITHUB_URL =
-      "https://github.com/david-legend/login_catalog";
+  static const String MoneyManagement = "MoneyManagement";
+  static const String MoneyManagement_PLATFORM = "Android / IOS.";
+  static const String MoneyManagement_CATEGORY = "MoneyManagement";
+  static const String MoneyManagement_SUBTITLE =
+      "Flutter-based money management app";
+  static const String MoneyManagement_DETAIL =
+      "This is a Flutter-based money management app that helps users track and manage their expenses and income. The app uses the Hive local database for efficient and secure data storage. Users can add transactions, create categories for expenses and income, and gain insights into their financial habits.";
+  static const String MoneyManagement_PLAYSTORE_URL = "";
+  static const String MoneyManagement_GITHUB_URL =
+      "https://github.com/AnandhuA/MoneyManagement.git";
 
-  static const String FOODY_BITE = "FoodyBite";
-  static const String FOODY_BITE_PLATFORM = "Android / IOS.";
-  static const String FOODY_BITE_CATEGORY = "Food / Restaurant.";
-  static const String FOODY_BITE_DESIGNER = "Yagnesh P.";
-  static const String FOODY_BITE_SUBTITLE =
-      "A useful free ui kit design for food related apps";
-  static const String FOODY_BITE_DETAIL =
-      "Foodybite is a free ui kit designed by Yagnesh Pipariya and built by David Cobbina. The goal of this project is to fast track development and inspire developers who want to build a food related app.";
-  static const String FOODY_BITE_PLAYSTORE_URL = "";
-  static const String FOODY_BITE_GITHUB_URL =
-      "https://github.com/david-legend/foodybite";
+  static const String NoteApp = "NoteApp";
+  static const String NoteApp_PLATFORM = "Android / IOS.";
+  static const String NoteApp_CATEGORY = "Note Taking App";
+  static const String NoteApp_DESIGNER = "Anandhu.";
+  static const String NoteApp_SUBTITLE =
+      "Flutter-based note-taking app is powered by a Node.js backend.";
+  static const String NoteApp_DETAIL =
+      "This Flutter-based note-taking app is powered by a Node.js backend. It allows users to create, update, and delete notes. The app is built with the Flutter BLoC state management pattern and supports both dark mode and light mode.";
+  static const String NoteApp_PLAYSTORE_URL = "";
+  static const String NoteApp_GITHUB_URL =
+      "https://github.com/AnandhuA/NoteApp.git";
 
-  static const String OTP_TEXT_FIELD = "Otp Textfield";
-  static const String OTP_TEXT_FIELD_PLATFORM = "Flutter Package/Library.";
-  static const String OTP_TEXT_FIELD_CATEGORY = "Package.";
-  static const String OTP_TEXT_FIELD_SUBTITLE =
-      "A useful flutter package for helping with otp";
-  static const String OTP_TEXT_FIELD_DETAIL =
-      "Otp text field is a simple flutter package built to help flutter devs easily implement OTP in their app. It is highly customizable and very easy to use.";
-  static const String OTP_TEXT_FIELD_GITHUB_URL =
-      "https://github.com/david-legend/otp_textfield";
-  static const String OTP_TEXT_FIELD_WEB_URL =
-      "https://pub.dev/packages/flutter_otp_text_field";
+  static const String PingChat = "PingChat";
+  static const String PingChat_PLATFORM = "Android";
+  static const String PingChat_CATEGORY = "Local Chat App";
+  static const String PingChat_SUBTITLE =
+      "Flutter-base chating application";
+  static const String PingChat_DETAIL =
+      "";
+  static const String PingChat_GITHUB_URL =
+      "https://github.com/AnandhuA/PingChat.git";
+  static const String PingChat_WEB_URL =
+      "";
 
-  static const String DISNEY_PLUS = "Disney Plus";
-  static const String DISNEY_PLUS_PLATFORM = "Android.";
-  static const String DISNEY_PLUS_CATEGORY = "UI Kit.";
-  static const String DISNEY_PLUS_SUBTITLE =
-      "Disney+, But Better";
-  static const String DISNEY_PLUS_DETAIL =
-      "Disney Plus is an amazing UI Kit  designed by Andre Carioca. He describes the UI Kit as his attempt of making the current disney plus app better. For me, this project is my attempt at learning and playing with Jetpack Compose. It contains everything that I am learning about the current state of native android development with Kotlin & Jetpack Compose";
-  static const String DISNEY_PLUS_PLAYSTORE_URL = "";
-  static const String DISNEY_PLUS_GITHUB_URL =
-      "https://github.com/david-legend/disneyPlus";
+  static const String Musiq_PLUS = "Musiq";
+  static const String Musiq_PLUS_PLATFORM = "Android.";
+  static const String Musiq_PLUS_CATEGORY = "Music App 🎵";
+  static const String Musiq_PLUS_SUBTITLE =
+      "This Flutter-based music app utilizes BLoC for state management and integrates with the JioSaavn API to fetch and play music";
+  static const String Musiq_PLUS_DETAIL =
+      "Discover a seamless music experience with our Flutter-based app! Leveraging BLoC for state management, this app integrates with the JioSaavn API to fetch and play your favorite tracks";
+  static const String Musiq_PLUS_PLAYSTORE_URL = "";
+  static const String Musiq_PLUS_GITHUB_URL =
+      "https://github.com/AnandhuA/Musiq.git";
 
-  static const String FLUTTER_CATALOG = "Flutter Catalog";
-  static const String FLUTTER_CATALOG_PLATFORM = "Android / IOS.";
-  static const String FLUTTER_CATALOG_CATEGORY = "UI Kit.";
-  static const String FLUTTER_CATALOG_SUBTITLE =
-      "A beautiful catalog of login designs";
-  static const String FLUTTER_CATALOG_DETAIL =
-      "Flutter Catalog is a beautiful catalog of designs built with flutter. The goal is to catalog different components and building blocks of a mobile app to help flutter devs get right to the most important part of their app.";
-  static const String FLUTTER_CATALOG_PLAYSTORE_URL =
-      "https://play.google.com/store/apps/details?id=dev.davidcobbina.fluttercatalog";
-  static const String FLUTTER_CATALOG_GITHUB_URL =
-      "https://github.com/david-legend/flutter_catalog";
+  static const String Netflix_CATALOG = "Netflix-Clone";
+  static const String Netflix_CATALOG_PLATFORM = "Android / IOS.";
+  static const String Netflix_CATALOG_CATEGORY = "Netflix Clone UI Kit.";
+  static const String Netflix_CATALOG_SUBTITLE = "Netflix Clone";
+  static const String Netflix_CATALOG_DETAIL =
+      "A Flutter application that replicates the Netflix user interface and functionality, utilizing the TMDB (The Movie Database) API to fetch and display movie data.";
+  static const String Netflix_CATALOG_PLAYSTORE_URL = "";
+  static const String Netflix_CATALOG_GITHUB_URL =
+      "https://github.com/AnandhuA/Netflix-.git";
 
   static const String AERIUM = "Aerium";
   static const String AERIUM_PLATFORM = "Web.";

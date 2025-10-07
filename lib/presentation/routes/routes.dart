@@ -1,7 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:portfolio/presentation/pages/contact_page.dart';
 import 'package:portfolio/presentation/pages/home/home_page.dart';
+import 'package:portfolio/presentation/pages/project_detail/project_detail_page.dart';
 import 'package:portfolio/presentation/pages/works/works_page.dart';
-import 'package:flutter/material.dart';
 
 typedef PathWidgetBuilder = Widget Function(
     BuildContext, String? /*Map<String, String>*/);
