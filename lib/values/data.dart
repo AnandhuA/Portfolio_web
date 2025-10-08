@@ -176,9 +176,7 @@ class Data {
   static List<ProjectItemData> recentWorks = [
     Projects.Musiq,
     Projects.Netflix,
-    Projects.SocialMedia,
     Projects.Travel,
-    Projects.MoneyManagement,
     Projects.NoteApp,
     Projects.WeatherApp,
   ];
@@ -186,12 +184,12 @@ class Data {
   static List<ProjectItemData> projects = [
     Projects.Musiq,
     Projects.Netflix,
-    Projects.SocialMedia,
     Projects.Travel,
-    Projects.MoneyManagement,
     Projects.NoteApp,
     Projects.WeatherApp,
-    // Projects.PingChat,
+    Projects.SocialMedia,
+    Projects.MoneyManagement,
+    Projects.PingChat,
     // Projects.AERIUM,
     // Projects.AERIUM_V2,
   ];
