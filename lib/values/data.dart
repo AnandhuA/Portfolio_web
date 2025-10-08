@@ -242,6 +242,7 @@ class Data {
       isWeb: false,
       technologyUsed: StringConst.FLUTTER,
       projectDescription: StringConst.REPORT_DETAIL,
+      gitHubUrl: StringConst.REPORT_GITHUB_URL,
       isLive: false,
     ),
 
@@ -265,7 +266,7 @@ class Data {
       isWeb: false,
       technologyUsed: StringConst.FLUTTER,
       projectDescription: StringConst.STUDENTDATABASE_DETAIL,
-      gitHubUrl: StringConst.STUDENTDATABASE_WEB_URL,
+      gitHubUrl: StringConst.STUDENTDATABASE_GITHUB_URL,
       isLive: false,
     ),
 //----- yt download ---------
@@ -277,8 +278,7 @@ class Data {
       technologyUsed: StringConst.FLUTTER,
       projectDescription: StringConst.YT_DOWNLOAD_DETAIL,
       gitHubUrl: StringConst.YT_DOWNLOAD_GITHUB_URL,
-      webUrl: StringConst.YT_DOWNLOAD_WEB_URL,
-      isLive: true,
+      isLive: false,
     ),
   ];
 
