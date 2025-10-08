@@ -4,7 +4,6 @@ class StringConst {
   //strings
   static const String APP_NAME = "Anandhu Portfolio";
   static const String APP_TITLE = "Anandhu Portfolio";
-  static const String SITE_URL = "https://davidcobbina.com";
 
   static const String HOME = "Home";
   static const String ABOUT = "About";
@@ -17,7 +16,7 @@ class StringConst {
   static const String CONTACT = "Contact";
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
-  static const String CERTIFICATIONS = "Certifications";
+  // static const String CERTIFICATIONS = "Certifications";
   static const String EMAIL_VALUE = "anandhu1407@gmail.com";
 
   // Home Page
@@ -47,35 +46,34 @@ class StringConst {
   static const String MESSAGE_ERROR_MSG =
       "* Please enter something to send this form";
   static const String SEND_MESSAGE = "Send Message";
-  // static const String COPYRIGHT = "©  2021  Built by  $DEV_NAME,";
-  // static const String DESIGNED_BY = "Designed by Julius G.";
-  static const String DESIGN_LINK =
-      "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
+
   static const String MESSAGE_ME = "Message me";
   static const String EMAIL_RESPONSE = "Thanks for reaching out to me! I will get back to you ASAP";
-  static const String EMAIL_FAILED_RESPONSE = "Something went wrong. Please send me an email manually - ${StringConst.DEV_EMAIL}";
+  static const String EMAIL_FAILED_RESPONSE =
+      "Something went wrong. Please send me an email manually - ${StringConst.AN_EMAIL}";
 
   // About Page
   static const String ABOUT_DEV_CATCH_LINE =
       "I am a passionate front-end developer and ui/ux designer with a keen eye for details.";
   static const String ABOUT_DEV_CATCH_LINE_1 = "I specialize in building high ";
   static const String ABOUT_DEV_CATCH_LINE_2 =
-      "quality mobile & web applications.";
-  // static const String ABOUT_DEV_CATCH_LINE_3 = "& web applications";
+      "quality mobile applications.";
   static const String ABOUT_DEV_CATCH_LINE_4 = "I also have a strong";
-  static const String ABOUT_DEV_CATCH_LINE_5 = "passion for opensource work.";
+  static const String ABOUT_DEV_CATCH_LINE_5 = "passion for work.";
   static const String ABOUT_DEV_STORY = "Story";
   static const String ABOUT_DEV_STORY_TITLE =
       "A little bit about myself.";
+
   static const String ABOUT_DEV_STORY_CONTENT_1 =
-      "I am full stack software engineer with great passion for building high quality applications. I have an extensive experience building frontend (mobile & web) and backend applications. I occasionally work as a tech consultant and I am enthusiastic about Devops & Cloud computing technologies.";
+      "I’m a Flutter Developer passionate about crafting high-performance, visually appealing mobile applications. I specialize in BLoC architecture, Firebase integration, and REST API development, with hands-on experience in both frontend and backend technologies.\n";
   static const String ABOUT_DEV_STORY_CONTENT_2 =
-      "I have a Masters in IT from Carnegie Mellon University where I majored in Software Engineering. I have strong technical skills as well as excellent interpersonal skills, which has enabled me to work & interact with clients all over the world.";
+      "Currently, I work at Resolute Enterprises, where I build and optimize Flutter applications for custom Android E-Ink tablets — focusing on performance, native SDK integration, and seamless user experiences.\n";
   static const String ABOUT_DEV_STORY_CONTENT_3 =
-      "I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music, a big fan of poetry & I love travelling.";
+      "I enjoy solving complex problems, building scalable architectures, and continuously learning about DevOps and cloud technologies to deliver complete, production-ready solutions.";
+
   static const String ABOUT_DEV_TECHNOLOGY = "Technology";
   static const String MOBILE_TECH = "Mobile Technologies";
-  static const String OTHER_TECH = "Web / Cloud / Design Technologies";
+  static const String OTHER_TECH = "Web / Design Technologies";
   static const String ABOUT_DEV_TECHNOLOGY_TITLE = "What I use.";
   static const String ABOUT_DEV_TECHNOLOGY_CONTENT =
       "I use a number of tools to aid my creative process when bringing things to life. Listed below are the tools and technologies that I have used over the years.";
@@ -93,9 +91,9 @@ class StringConst {
   // Works Page
   static const String VIEW_PROJECT = "View Project";
   static const String MY_WORKS = "My Works.";
-  static const String NOTE_WORTHY_PROJECTS = "Other Noteworthy Projects.";
+  static const String NOTE_WORTHY_PROJECTS = "Other Projects.";
   static const String NOTE_WORTHY_PROJECTS_DESC =
-      "Here are some projects worth mentioning. They are also available on my github repository";
+      "Here are some projects. They are also available on my github repository";
 
   // Project Detail
   static const String ABOUT_PROJECT = "About Project";
@@ -111,8 +109,8 @@ class StringConst {
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   // static const String BUILT_WITH_FLUTTER = "Built using ";
-  static const String DEV_EMAIL = "anandhu1407@gmail.com";
-  static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
+  static const String AN_EMAIL = "anandhu1407@gmail.com";
+  static const String EMAIL_URL = "mailto:<$AN_EMAIL>?subject=&body=";
 
   static const String KEY_SKILLS = "KEY SKILLS";
   static const String EXPERIENCE_2 = "EXPERIENCE";
@@ -127,7 +125,6 @@ class StringConst {
   static const String DEV_NAME = "Anandhu";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
-  static const String DESIGNED_IN = "Made in Ghana with ";
   static const String BUILT_BY = "Built by Anandhu ";
 
   
@@ -139,16 +136,10 @@ class StringConst {
 
   //Skills
   static const String FLUTTER = "Flutter";
-  // static const String JETPACK_COMPOSE = "Jetpack Compose";
   static const String JAVA = "Java";
   static const String ANDROID = "Android";
   static const String PYTHON = "Python";
-  static const String KOTLIN = "Kotlin";
-  static const String JAVASCRIPT = "Javascript";
-  static const String PHP = "PHP";
-  static const String LARAVEL = "Laravel";
   static const String SQL = "SQL";
-  static const String WORDPRESS = "Wordpress";
   static const String BOOTSTRAP = "Bootstrap";
   static const String HTML_CSS = "HTML/CSS";
 
@@ -172,7 +163,6 @@ class StringConst {
   static const String GITHUB_URL = "https://github.com/AnandhuA";
   static const String LINKED_IN_URL =
       "https://www.linkedin.com/in/anandhuav/";
-  // static const String TWITTER_URL = "https://twitter.com/DavidLegend47";
   static const String INSTAGRAM_URL =
       "https://www.instagram.com/anandhu14_";
 
@@ -180,89 +170,8 @@ class StringConst {
   static const String CONNECT = "Connect with me";
   static const String EMAIL = "Email";
   static const String LINKED_IN = "LinkedIn";
-  static const String TWITTER = "Twitter";
   static const String INSTAGRAM = "Instagram";
-  static const String TELEGRAM = "Telegram";
   static const String GITHUB = "Github";
-
-  //Certificate Urls
-  static const String CMU_CERT_URL = "https://www.cmu.edu/hub/registrar/graduation/diplomas/electronic/validation/index.html";
-  static const String ASSOCIATE_ANDROID_DEV_URL =
-      "https://www.credential.net/b296da88-d6be-4bb5-9756-b13efea3a421";
-  static const String DATA_SCIENCE_CERT_URL =
-      "https://graduation.udacity.com/confirm/7CGEJAFR";
-  static const String CLOUD_DEVELOPER_URL =
-      "https://confirm.udacity.com/PJU23DCP";
-  static const String ANDROID_BASICS_CERT_URL =
-      "https://graduation.udacity.com/confirm/9VTDRN5K";
-
-
-
-  //AwardedBy
-  static const String GOOGLE = "Google";
-  static const String UDACITY = "Udacity";
-  static const String CMU = "Carnegie Mellon University";
-
-  //CertificationType
-  static const String MSC_IT = "Msc In Information Technology";
-  static const String ASSOCIATE_ANDROID_DEV = "Associate Android Developer";
-  static const String CLOUD_DEVELOPER = "Cloud Developer";
-  static const String DATA_SCIENCE = "Data Science";
-  static const String ANDROID_BASICS = "Android Basics";
-
-  //Experience
-  static const String CURRENT_MONTH_YEAR = "May 2020 - Current";
-  static const String STARTED_MONTH_YEAR = "May 2017";
-
-  static const String COMPANY_2 = "Shrinq";
-  static const String COMPANY_2_URL = "https://shrinqghana.com/";
-  static const String POSITION_2 = "Software Engineer";
-  static const String COMPANY_2_ROLE_1 =
-      "Built a mobile app to track the status of all requested fibre broadband for Vodafone Ghana using Java Android.";
-  static const String COMPANY_2_ROLE_2 =
-      "Worked on a team of 2 to build an ID verification application using Java Android.";
-  static const String COMPANY_2_ROLE_3 =
-      "Developed and maintained client & in-house projects primarily using Javascript, React js, Next js, Express and Node js";
-  static const String LOCATION_2 = "Asylum Down - Accra";
-  static const String DURATION_2 = "April 2018 - June 2019";
-
-  static const String COMPANY_3 = "Bewsys";
-  static const String COMPANY_3_URL = "https://bewsys.com/";
-  static const String POSITION_3 = "Software Engineer";
-  static const String COMPANY_3_ROLE_1 =
-      "Worked in a team of 3 to design and implement backend infrastructure of an inmate management system for the National Prison of South Sudan.";
-  static const String COMPANY_3_ROLE_2 =
-      "Architected and implemented a mobile application for the Palestinian Agriculture Advisory System.";
-  static const String COMPANY_3_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance.";
-  static const String LOCATION_3 = "East Legon - Accra";
-  static const String DURATION_3 = "August 2019 - April 2020";
-
-
-  static const String COMPANY_4 = "Brij Money";
-  static const String COMPANY_4_URL = "https://www.brij.money/";
-  static const String POSITION_4 = "Software Engineer Intern";
-  static const String COMPANY_4_ROLE_1 =
-      "Worked closely with designers & backend engineers to develop and ship merchants feature which allowed end users to purchase items from a merchant store on the Brij app.";
-  static const String COMPANY_4_ROLE_2 =
-      "Developed and shipped airtime & bundle purchasing feature on the Brij mobile app.";
-  static const String COMPANY_4_ROLE_3 =
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across brij’s iOS and Android mobile apps.";
-  static const String LOCATION_4 = "Accra - Ghana";
-  static const String DURATION_4 = "June 2021 - Aug 2021";
-
-
-  static const String COMPANY_5 = "Consultant";
-  static const String COMPANY_5_URL = SITE_URL;
-  static const String POSITION_5 = "Software Engineer Consultant";
-  static const String COMPANY_5_ROLE_1 =
-      "Led engineering team to develop & ship a SaaS grid monitoring mobile application platform for Hive Power company in Switzerland.";
-  static const String COMPANY_5_ROLE_2 =
-      "Designed and built technology infrastructure for a leading Ghanaian Insurance company";
-  static const String COMPANY_5_ROLE_3 =
-      "Worked with GoFlow Services in India to improve the architecture of an already existing video streaming mobile application (BeThere).";
-  static const String LOCATION_5 = "Kigali - Rwanda";
-  static const String DURATION_5 = "May 2020 - Sept 2022";
 
   //Portfolio, Projects
   static const String PORTFOLIO_SITE_V2 = "Aerium V2";
@@ -277,6 +186,9 @@ class StringConst {
       "https://github.com/david-legend/david-legend.github.io";
   static const String PORTFOLIO_SITE_V2_WEB_URL = "https://davidcobbina.com/";
 
+
+//---- social media ---------
+
   static const String SocialMedia = "SocialMedia";
   static const String SocialMedia_PLATFORM = "Android / IOS.";
   static const String SocialMedia_CATEGORY = "SocialMedia.";
@@ -288,6 +200,9 @@ class StringConst {
   static const String SocialMedia_GITHUB_URL =
       "https://github.com/AnandhuA/SocialMedia.git";
   static const String SocialMedia_PLAYSTORE_URL = " ";
+
+
+//------------- weather app ------------ 
 
   static const String WeatherApp = "WeatherApp";
   static const String WeatherApp_PLATFORM = "Android / IOS.";
@@ -301,6 +216,10 @@ class StringConst {
       "https://github.com/AnandhuA/WeatherApp.git";
   static const String WeatherApp_WEB_URL = " ";
 
+
+
+//--------- TravelMate ----------
+
   static const String Travel = "TravelMate";
   static const String Travel_PLATFORM = "Android / IOS.";
   static const String Travel_CATEGORY = "Travel.";
@@ -313,6 +232,11 @@ class StringConst {
   static const String Travel_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=in.FlutterCarftStudios.travel_app";
 
+
+
+
+//------------ MoneyMangement ----------- 
+
   static const String MoneyManagement = "MoneyManagement";
   static const String MoneyManagement_PLATFORM = "Android / IOS.";
   static const String MoneyManagement_CATEGORY = "MoneyManagement";
@@ -323,6 +247,11 @@ class StringConst {
   static const String MoneyManagement_PLAYSTORE_URL = "";
   static const String MoneyManagement_GITHUB_URL =
       "https://github.com/AnandhuA/MoneyManagement.git";
+
+
+
+
+//----------- NoteApp ----------- 
 
   static const String NoteApp = "NoteApp";
   static const String NoteApp_PLATFORM = "Android / IOS.";
@@ -336,6 +265,9 @@ class StringConst {
   static const String NoteApp_GITHUB_URL =
       "https://github.com/AnandhuA/NoteApp.git";
 
+
+//----------- PingChat -------- 
+
   static const String PingChat = "PingChat";
   static const String PingChat_PLATFORM = "Android";
   static const String PingChat_CATEGORY = "Local Chat App";
@@ -348,27 +280,35 @@ class StringConst {
   static const String PingChat_WEB_URL =
       "";
 
-  static const String Musiq_PLUS = "Musiq";
-  static const String Musiq_PLUS_PLATFORM = "Android.";
-  static const String Musiq_PLUS_CATEGORY = "Music App 🎵";
-  static const String Musiq_PLUS_SUBTITLE =
+
+//------------ Music App ---------- 
+
+  static const String Musiq = "Musiq";
+  static const String Musiq_PLATFORM = "Android.";
+  static const String Musiq_CATEGORY = "Music App 🎵";
+  static const String Musiq_SUBTITLE =
       "This Flutter-based music app utilizes BLoC for state management and integrates with the JioSaavn API to fetch and play music";
-  static const String Musiq_PLUS_DETAIL =
+  static const String Musiq_DETAIL =
       "This Flutter-based music app utilizes BLoC for state management and integrates with the JioSaavn API to fetch and play music.Discover a seamless music experience with our Flutter-based app! Leveraging BLoC for state management, this app integrates with the JioSaavn API to fetch and play your favorite tracks \n\nFeatures\n\nAPI Integration: Fetch and display music content from the JioSaavn API.\nBLoC State Management: Uses BLoC (Business Logic Component) for efficient state management and separation of concerns.\nMusic Playback: Supports playing and pausing.\n  \n";
-  static const String Musiq_PLUS_PLAYSTORE_URL = "";
-  static const String Musiq_PLUS_GITHUB_URL =
+  static const String Musiq_PLAYSTORE_URL = "";
+  static const String Musiq_GITHUB_URL =
       "https://github.com/AnandhuA/Musiq.git";
 
-  static const String Netflix_CATALOG = "Netflix-Clone";
-  static const String Netflix_CATALOG_PLATFORM = "Android / IOS.";
-  static const String Netflix_CATALOG_CATEGORY = "Netflix Clone UI Kit.";
-  static const String Netflix_CATALOG_SUBTITLE = "Netflix Clone";
-  static const String Netflix_CATALOG_DETAIL =
+
+//------------ Netflix --------
+
+  static const String Netflix = "Netflix-Clone";
+  static const String Netflix_PLATFORM = "Android / IOS.";
+  static const String Netflix_CATEGORY = "Netflix Clone UI Kit.";
+  static const String Netflix_SUBTITLE = "Netflix Clone";
+  static const String Netflix_DETAIL =
       "A Flutter application that replicates the Netflix user interface and functionality, utilizing the TMDB (The Movie Database) API to fetch and display movie data.\n\nFeatures\n\nBrowse popular movies\nSearch for movies\nView movie details\nResponsive design for both Android and iOS\n";
-  static const String Netflix_CATALOG_PLAYSTORE_URL = "";
-  static const String Netflix_CATALOG_GITHUB_URL =
+  static const String Netflix_PLAYSTORE_URL = "";
+  static const String Netflix_GITHUB_URL =
       "https://github.com/AnandhuA/Netflix-.git";
 
+
+//----------------------
   static const String AERIUM = "Aerium";
   static const String AERIUM_PLATFORM = "Web.";
   static const String AERIUM_CATEGORY = "Portfolio / CV.";
@@ -404,74 +344,93 @@ class StringConst {
       "https://github.com/david-legend/david-legend.github.io";
   static const String OUTFITR_WEB_URL = "https://davidcobbina.com/#/";
 
-  //Noteworthy Projects
-  static const String PROGRAMMING_FOR_DATA_SCIENCE =
-      "Programming For Data Science";
-  static const String PROGRAMMING_FOR_DATA_SCIENCE_PLATFORM = "Python.";
-  static const String PROGRAMMING_FOR_DATA_SCIENCE_SUBTITLE =
-      "Udacity Programming For Data Science Course";
-  static const String PROGRAMMING_FOR_DATA_SCIENCE_DETAIL =
-      "Udacity Programming For Data Science Course.";
-  static const String PROGRAMMING_FOR_DATA_SCIENCE_GITHUB_URL =
-      "https://github.com/david-legend/programming-for-data-science-nanodegree";
-  static const String PROGRAMMING_FOR_DATA_SCIENCE_DETAIL_WEB_URL = "";
+  //--------Noteworthy Projects --------
 
-  static const String FINOPP = "Finopp";
-  static const String FINOPP_PLATFORM = "Android / IOS.";
-  static const String FINOPP_SUBTITLE =
-      "Finopp - Financial Opportunities - Its an app that connects startups to Investors. I built this UI as a prototype to compete in the African app launchpad(http://techleaders.eg/aal/competition/).";
-  static const String FINOPP_DETAIL =
-      "Finopp - Financial Opportunities - Its an app that connects startups to Investors. I built this UI as a prototype to compete in the African app launchpad(http://techleaders.eg/aal/competition/).";
-  static const String FINOPP_GITHUB_URL =
-      "https://github.com/david-legend/finopp";
-  static const String FINOPP_DETAIL_WEB_URL = "";
 
-  static const String UDAGRAM_IMAGE_FILTERING = "Udagram Image Filtering App";
-  static const String UDAGRAM_IMAGE_FILTERING_TECH = "Kubernetes / Docker / Ionic / Node.";
-  static const String UDAGRAM_IMAGE_FILTERING_SUBTITLE =
-      "Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.";
-  static const String UDAGRAM_IMAGE_FILTERING_DETAIL =
-      "Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.";
-  static const String UDAGRAM_IMAGE_FILTERING_GITHUB_URL = "https://github.com/david-legend/udagram";
-  static const String UDAGRAM_IMAGE_FILTERING_DETAIL_WEB_URL = "";
+//---- Report app --------- 
+  static const String REPORT =
+      "Report";
+  static const String REPORT_PLATFORM = "Android / IOS.";
+  static const String REPORT_SUBTITLE =
+      "------Subtitle ---------";
+  static const String REPORT_DETAIL =
+      "-------- Details ---------";
+  static const String REPORT_GITHUB_URL =
+      "https://github.com/AnandhuA/Report.git";
+  static const String REPORT_DETAIL_WEB_URL = "";
 
-  static const String SERVERLESS_TODO = "Serverless Todo App";
-  static const String SERVERLESS_TODO_TECH = "Serverless / AWS Lambda / API GateWay / Node / React";
-  static const String SERVERLESS_TODO_SUBTITLE =
-      "Simple TODO application using AWS Lambda and Serverless framework";
-  static const String SERVERLESS_TODO_DETAIL =
-      "Simple TODO application using AWS Lambda and Serverless framework";
-  static const String SERVERLESS_TODO_GITHUB_URL = "https://github.com/david-legend/serverless-todo-app";
-  static const String SERVERLESS_TODO_DETAIL_WEB_URL = "";
 
-  static const String PYTHON_ALGORITHMS = "Python Algorithms";
-  static const String PYTHON_ALGORITHMS_PLATFORM = "Python.";
-  static const String PYTHON_ALGORITHMS_SUBTITLE =
-      "Data structures and interview questions implemented in JavaScript with explanations and links to further readings.";
-  static const String PYTHON_ALGORITHMS_DETAIL =
-      "Data structures and interview questions implemented in JavaScript with explanations and links to further readings.";
-  static const String PYTHON_ALGORITHMS_GITHUB_URL = "https://github.com/david-legend/python-algorithms";
-  static const String PYTHON_ALGORITHMS_DETAIL_WEB_URL = "";
+//----------- student_database --------- 
+  static const STUDENTDATABASE = "StudentDatabase";
+  static const STUDENTDATABASE_PLATFORM = "Android / IOS.";
+  static const STUDENTDATABASE_SUBTITLE =
+      "------Subtitle ---------";
+  static const STUDENTDATABASE_DETAIL =
+      "-------- Details ---------";
+  static const STUDENTDATABASE_GITHUB_URL =
+      "https://github.com/AnandhuA/student_database.git";
+  static const String STUDENTDATABASE_WEB_URL = "";
 
-  static const String AMOR_APP = "Amor";
-  static const String AMOR_APP_PLATFORM = "Web.";
-  static const String AMOR_APP_SUBTITLE =
-      "beautifully designed portfolio website built with flutter.";
-  static const String AMOR_APP_DETAIL =
-      "beautifully designed portfolio website built with flutter.";
-  static const String AMOR_APP_GITHUB_URL =
-      "https://github.com/david-legend/amor";
-  static const String AMOR_APP_WEB_URL = "https://david-legend.github.io/amor/";
 
-  static const String ONBOARDING_APP = "Onboarding Template UI Kit.";
-  static const String ONBOARDING_APP_PLATFORM = "Android / IOS.";
-  static const String ONBOARDING_APP_SUBTITLE =
-      "A beautifully crafted app that takes you through an onboarding experience.";
-  static const String ONBOARDING_APP_DETAIL =
-      "A beautifully crafted app that takes you through an onboarding experience.";
-  static const String ONBOARDING_APP_GITHUB_URL =
-      "https://github.com/david-legend/onboarding-app";
-  static const String ONBOARDING_APP_PLAYSTORE_URL = "";
+//----------- nothing website ------------
+  static const String NOTHING_WEBSITE_CLONE = "Nothing Website clone";
+  static const String NOTHING_WEBSITE_CLONE_TECH = "HTML / CSS / Bootstrap";
+  static const String NOTHING_WEBSITE_CLONE_SUBTITLE =
+      "-------Subtitle --------";
+  static const String NOTHING_WEBSITE_CLONE_DETAIL =
+      "-----  detail -------";
+  static const String NOTHING_WEBSITE_CLONE_GITHUB_URL = "https://github.com/AnandhuA/Nothing.git";
+  static const String NOTHING_WEBSITE_CLONE_DETAIL_WEB_URL = "";
+
+
+
+//--------------------- instagram clone web ---------
+  static const String INSTAGRAM_CLONE = "Instagram Clone";
+  static const String INSTAGRAM_CLONE_TECH = "HTML / CSS / Bootstrap";
+  static const String INSTAGRAM_CLONE_SUBTITLE =
+      "-------Subtitle --------";
+  static const String INSTAGRAM_CLONE_DETAIL =
+      "-----  detail -------";
+  static const String INSTAGRAM_CLONE_GITHUB_URL = "https://github.com/AnandhuA/Instagram.git";
+  static const String INSTAGRAM_CLONE_DETAIL_WEB_URL = "";
+
+
+
+//-------------Supercell web clone ---------
+  static const String SUPERCELL_CLONE = "Supercell clone";
+  static const String SUPERCELL_CLONE_PLATFORM = "HTML / CSS / Bootstrap";
+  static const String SUPERCELL_CLONE_SUBTITLE =
+      "-------Subtitle --------";
+  static const String SUPERCELL_CLONE_DETAIL =
+      "-----  detail -------";
+  static const String SUPERCELL_CLONE_GITHUB_URL = "https://github.com/AnandhuA/Supercell.git";
+  static const String SUPERCELL_CLONE_DETAIL_WEB_URL = "";
+
+
+//---------YT-Download -------
+  static const String YT_DOWNLOAD = "YT-Download";
+  static const String YT_DOWNLOAD_PLATFORM = "Windows";
+  static const String YT_DOWNLOAD_SUBTITLE =
+      "-------Subtitle --------";
+  static const String YT_DOWNLOAD_DETAIL =
+      "-----  detail -------";
+  static const String YT_DOWNLOAD_GITHUB_URL =
+      "https://github.com/AnandhuA/YT-Download.git";
+  static const String YT_DOWNLOAD_WEB_URL = "";
+
+
+//------------Portfolio_web --------
+  static const String PORTFOLIO_WEB = "Portfolio Web";
+  static const String PORTFOLIO_WEB_PLATFORM = "Web";
+  static const String PORTFOLIO_WEB_SUBTITLE =
+      "-------Subtitle --------";
+  static const String PORTFOLIO_WEB_DETAIL =
+      "-----  detail -------";
+  static const String PORTFOLIO_WEB_GITHUB_URL =
+      "https://github.com/AnandhuA/Portfolio_web.git";
+  static const String PORTFOLIO_WEB_PLAYSTORE_URL = "";
+
+
 
   // Font Family
   static const String VISUELT_PRO = "VisueltPro";

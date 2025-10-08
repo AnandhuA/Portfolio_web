@@ -91,7 +91,7 @@ class SubMenuData {
 class Data {
   static List<NavItemData> menuItems = [
     NavItemData(name: StringConst.HOME, route: StringConst.HOME_PAGE),
-    // NavItemData(name: StringConst.ABOUT, route: StringConst.ABOUT_PAGE),
+    NavItemData(name: StringConst.ABOUT, route: StringConst.ABOUT_PAGE),
     NavItemData(name: StringConst.WORKS, route: StringConst.WORKS_PAGE),
     // NavItemData(
     //   name: StringConst.EXPERIENCE,
@@ -120,58 +120,22 @@ class Data {
       iconData: FontAwesomeIcons.instagram,
       url: StringConst.INSTAGRAM_URL,
     ),
-    // SocialData(
-    //   name: StringConst.TWITTER,
-    //   iconData: FontAwesomeIcons.twitter,
-    //   url: StringConst.TWITTER_URL,
-    // ),
-    // SocialData(
-    //   name: StringConst.INSTAGRAM,
-    //   iconData: FontAwesomeIcons.instagram,
-    //   url: StringConst.INSTAGRAM_URL,
-    // ),
-    // SocialData(
-    //   name: StringConst.TELEGRAM,
-    //   iconData: FontAwesomeIcons.telegram,
-    //   url: StringConst.TELEGRAM_URL,
-    // ),
   ];
 
   static List<String> mobileTechnologies = [
-    "Android",
-    "Kotlin",
-    "Jetpack Compose",
     "Flutter",
-    "Dart"
-        "Java Android",
+    "Dart",
+    "Android",
   ];
 
   static List<String> otherTechnologies = [
     "HTML 5",
-    "CSS 3",
-    "JavaScript",
-    "Typescript",
-    "React JS",
-    "Next JS",
-    "Node JS",
+    "CSS 3",    
     "Git",
-    "AWS",
-    "Docker",
-    "Kubernetes",
-    "Google Cloud",
-    "Azure",
-    "Travis CI",
-    "Circle CI",
-    "Express",
-    "Chakra UI",
-    "Laravel",
-    "PHP",
-    "SQL",
-    "C++",
     "Firebase",
     "Figma",
-    "Adobe XD",
-    "Wordpress",
+    "SQL",
+    "C++",
   ];
   static List<SocialData> socialData1 = [
     SocialData(
@@ -184,11 +148,6 @@ class Data {
       iconData: FontAwesomeIcons.linkedin,
       url: StringConst.LINKED_IN_URL,
     ),
-    // SocialData(
-    //   name: StringConst.TWITTER,
-    //   iconData: FontAwesomeIcons.twitter,
-    //   url: StringConst.TWITTER_URL,
-    // ),
   ];
 
   static List<SocialData> socialData2 = [
@@ -215,8 +174,8 @@ class Data {
   ];
 
   static List<ProjectItemData> recentWorks = [
-    Projects.Musiq_PLUS,
-    Projects.Netflix_CATALOG,
+    Projects.Musiq,
+    Projects.Netflix,
     Projects.SocialMedia,
     Projects.Travel,
     Projects.MoneyManagement,
@@ -225,187 +184,161 @@ class Data {
   ];
 
   static List<ProjectItemData> projects = [
-    Projects.Musiq_PLUS,
-    Projects.Netflix_CATALOG,
+    Projects.Musiq,
+    Projects.Netflix,
     Projects.SocialMedia,
     Projects.Travel,
     Projects.MoneyManagement,
     Projects.NoteApp,
     Projects.WeatherApp,
-    Projects.PingChat,
-    Projects.AERIUM,
-    Projects.AERIUM_V2,
+    // Projects.PingChat,
+    // Projects.AERIUM,
+    // Projects.AERIUM_V2,
   ];
 
   static List<NoteWorthyProjectDetails> noteworthyProjects = [
+  
+//---------- nothing clone ------- 
     NoteWorthyProjectDetails(
-      projectName: StringConst.UDAGRAM_IMAGE_FILTERING,
+      projectName: StringConst.NOTHING_WEBSITE_CLONE,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: false,
-      technologyUsed: StringConst.UDAGRAM_IMAGE_FILTERING_TECH,
-      projectDescription: StringConst.UDAGRAM_IMAGE_FILTERING_DETAIL,
-      gitHubUrl: StringConst.UDAGRAM_IMAGE_FILTERING_GITHUB_URL,
+      technologyUsed: StringConst.NOTHING_WEBSITE_CLONE_TECH,
+      projectDescription: StringConst.NOTHING_WEBSITE_CLONE_DETAIL,
+      gitHubUrl: StringConst.NOTHING_WEBSITE_CLONE_GITHUB_URL,
       isLive: false,
     ),
+
+//---------- instagram clone --------   
     NoteWorthyProjectDetails(
-      projectName: StringConst.SERVERLESS_TODO,
+      projectName: StringConst.INSTAGRAM_CLONE,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: false,
-      technologyUsed: StringConst.SERVERLESS_TODO_TECH,
-      projectDescription: StringConst.SERVERLESS_TODO_DETAIL,
-      gitHubUrl: StringConst.SERVERLESS_TODO_GITHUB_URL,
+      technologyUsed: StringConst.INSTAGRAM_CLONE_TECH,
+      projectDescription: StringConst.INSTAGRAM_CLONE_DETAIL,
+      gitHubUrl: StringConst.INSTAGRAM_CLONE_GITHUB_URL,
       isLive: false,
     ),
+
+//------- SuperCell clone -------
     NoteWorthyProjectDetails(
-      projectName: StringConst.PYTHON_ALGORITHMS,
+      projectName: StringConst.SUPERCELL_CLONE,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: false,
-      technologyUsed: StringConst.PYTHON,
-      projectDescription: StringConst.PYTHON_ALGORITHMS_DETAIL,
-      gitHubUrl: StringConst.PYTHON_ALGORITHMS_GITHUB_URL,
+      technologyUsed: StringConst.HTML_CSS,
+      projectDescription: StringConst.SUPERCELL_CLONE_DETAIL,
+      gitHubUrl: StringConst.SUPERCELL_CLONE_GITHUB_URL,
       isLive: false,
     ),
+
+//--------report -------- 
     NoteWorthyProjectDetails(
-      projectName: StringConst.PROGRAMMING_FOR_DATA_SCIENCE,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.PYTHON,
-      projectDescription: StringConst.PROGRAMMING_FOR_DATA_SCIENCE_DETAIL,
-      gitHubUrl: StringConst.PROGRAMMING_FOR_DATA_SCIENCE_GITHUB_URL,
-      isLive: false,
-    ),
-    NoteWorthyProjectDetails(
-      projectName: StringConst.ONBOARDING_APP,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.ONBOARDING_APP_DETAIL,
-      gitHubUrl: StringConst.ONBOARDING_APP_GITHUB_URL,
-      isLive: false,
-    ),
-    NoteWorthyProjectDetails(
-      projectName: StringConst.FINOPP,
+      projectName: StringConst.REPORT,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: false,
       technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.FINOPP_DETAIL,
-      gitHubUrl: StringConst.FINOPP_GITHUB_URL,
+      projectDescription: StringConst.REPORT_DETAIL,
       isLive: false,
     ),
+
+//----------- portfolio ------
     NoteWorthyProjectDetails(
-      projectName: StringConst.AMOR_APP,
+      projectName: StringConst.PORTFOLIO_WEB,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: false,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription: StringConst.PORTFOLIO_WEB_DETAIL,
+      gitHubUrl: StringConst.PORTFOLIO_WEB_GITHUB_URL,
+      isLive: false,
+    ),
+
+//----------- student data base -------
+    NoteWorthyProjectDetails(
+      projectName: StringConst.STUDENTDATABASE,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: false,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription: StringConst.STUDENTDATABASE_DETAIL,
+      gitHubUrl: StringConst.STUDENTDATABASE_WEB_URL,
+      isLive: false,
+    ),
+//----- yt download ---------
+    NoteWorthyProjectDetails(
+      projectName: StringConst.YT_DOWNLOAD,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: true,
       technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.AMOR_APP_DETAIL,
-      gitHubUrl: StringConst.AMOR_APP_GITHUB_URL,
-      webUrl: StringConst.AMOR_APP_WEB_URL,
+      projectDescription: StringConst.YT_DOWNLOAD_DETAIL,
+      gitHubUrl: StringConst.YT_DOWNLOAD_GITHUB_URL,
+      webUrl: StringConst.YT_DOWNLOAD_WEB_URL,
       isLive: true,
     ),
   ];
 
-  static List<CertificationData> certificationData = [
-    CertificationData(
-      title: StringConst.MSC_IT,
-      url: StringConst.CMU_CERT_URL,
-      image: ImagePath.CMU_MASTERS_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.CMU,
-    ),
-    CertificationData(
-      title: StringConst.ASSOCIATE_ANDROID_DEV,
-      url: StringConst.ASSOCIATE_ANDROID_DEV_URL,
-      image: ImagePath.ASSOCIATE_ANDROID_DEV,
-      imageSize: 0.325,
-      awardedBy: StringConst.GOOGLE,
-    ),
-    CertificationData(
-      title: StringConst.CLOUD_DEVELOPER,
-      url: StringConst.CLOUD_DEVELOPER_URL,
-      image: ImagePath.CLOUD_DEVELOPER_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.UDACITY,
-    ),
-    CertificationData(
-      title: StringConst.DATA_SCIENCE,
-      url: StringConst.DATA_SCIENCE_CERT_URL,
-      image: ImagePath.DATA_SCIENCE_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.UDACITY,
-    ),
-    CertificationData(
-      title: StringConst.ANDROID_BASICS,
-      url: StringConst.ANDROID_BASICS_CERT_URL,
-      image: ImagePath.ANDROID_BASICS_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.UDACITY,
-    ),
-  ];
-
-  static List<ExperienceData> experienceData = [
-    ExperienceData(
-      company: StringConst.COMPANY_5,
-      position: StringConst.POSITION_5,
-      companyUrl: StringConst.COMPANY_5_URL,
-      roles: [
-        StringConst.COMPANY_5_ROLE_1,
-        StringConst.COMPANY_5_ROLE_2,
-        StringConst.COMPANY_5_ROLE_3,
-      ],
-      location: StringConst.LOCATION_5,
-      duration: StringConst.DURATION_5,
-    ),
-    ExperienceData(
-      company: StringConst.COMPANY_4,
-      position: StringConst.POSITION_4,
-      companyUrl: StringConst.COMPANY_4_URL,
-      roles: [
-        StringConst.COMPANY_4_ROLE_1,
-        StringConst.COMPANY_4_ROLE_2,
-        StringConst.COMPANY_4_ROLE_3,
-      ],
-      location: StringConst.LOCATION_4,
-      duration: StringConst.DURATION_4,
-    ),
-    ExperienceData(
-      company: StringConst.COMPANY_3,
-      position: StringConst.POSITION_3,
-      companyUrl: StringConst.COMPANY_3_URL,
-      roles: [
-        StringConst.COMPANY_3_ROLE_1,
-        StringConst.COMPANY_3_ROLE_2,
-        StringConst.COMPANY_3_ROLE_3,
-      ],
-      location: StringConst.LOCATION_3,
-      duration: StringConst.DURATION_3,
-    ),
-    ExperienceData(
-      company: StringConst.COMPANY_2,
-      position: StringConst.POSITION_2,
-      companyUrl: StringConst.COMPANY_2_URL,
-      roles: [
-        StringConst.COMPANY_2_ROLE_1,
-        StringConst.COMPANY_2_ROLE_2,
-        StringConst.COMPANY_2_ROLE_3,
-      ],
-      location: StringConst.LOCATION_2,
-      duration: StringConst.DURATION_2,
-    ),
-  ];
+  // static List<ExperienceData> experienceData = [
+  //   ExperienceData(
+  //     company: StringConst.COMPANY_5,
+  //     position: StringConst.POSITION_5,
+  //     companyUrl: StringConst.COMPANY_5_URL,
+  //     roles: [
+  //       StringConst.COMPANY_5_ROLE_1,
+  //       StringConst.COMPANY_5_ROLE_2,
+  //       StringConst.COMPANY_5_ROLE_3,
+  //     ],
+  //     location: StringConst.LOCATION_5,
+  //     duration: StringConst.DURATION_5,
+  //   ),
+  //   ExperienceData(
+  //     company: StringConst.COMPANY_4,
+  //     position: StringConst.POSITION_4,
+  //     companyUrl: StringConst.COMPANY_4_URL,
+  //     roles: [
+  //       StringConst.COMPANY_4_ROLE_1,
+  //       StringConst.COMPANY_4_ROLE_2,
+  //       StringConst.COMPANY_4_ROLE_3,
+  //     ],
+  //     location: StringConst.LOCATION_4,
+  //     duration: StringConst.DURATION_4,
+  //   ),
+  //   ExperienceData(
+  //     company: StringConst.COMPANY_3,
+  //     position: StringConst.POSITION_3,
+  //     companyUrl: StringConst.COMPANY_3_URL,
+  //     roles: [
+  //       StringConst.COMPANY_3_ROLE_1,
+  //       StringConst.COMPANY_3_ROLE_2,
+  //       StringConst.COMPANY_3_ROLE_3,
+  //     ],
+  //     location: StringConst.LOCATION_3,
+  //     duration: StringConst.DURATION_3,
+  //   ),
+  //   ExperienceData(
+  //     company: StringConst.COMPANY_2,
+  //     position: StringConst.POSITION_2,
+  //     companyUrl: StringConst.COMPANY_2_URL,
+  //     roles: [
+  //       StringConst.COMPANY_2_ROLE_1,
+  //       StringConst.COMPANY_2_ROLE_2,
+  //       StringConst.COMPANY_2_ROLE_3,
+  //     ],
+  //     location: StringConst.LOCATION_2,
+  //     duration: StringConst.DURATION_2,
+  //   ),
+  // ];
 }
 
 class Projects {
-  static ProjectItemData Musiq_PLUS = ProjectItemData(
-    title: StringConst.Musiq_PLUS,
-    subtitle: StringConst.Musiq_PLUS,
-    platform: StringConst.Musiq_PLUS_PLATFORM,
+  static ProjectItemData Musiq = ProjectItemData(
+    title: StringConst.Musiq,
+    subtitle: StringConst.Musiq,
+    platform: StringConst.Musiq_PLATFORM,
     primaryColor: AppColors.musiq,
     image: ImagePath.Musiq_COVER,
     coverUrl: ImagePath.Musiq_SCREENS,
@@ -414,18 +347,18 @@ class Projects {
     projectAssets: [
      //image list
     ],
-    category: StringConst.Musiq_PLUS_CATEGORY,
-    portfolioDescription: StringConst.Musiq_PLUS_DETAIL,
+    category: StringConst.Musiq_CATEGORY,
+    portfolioDescription: StringConst.Musiq_DETAIL,
     isPublic: true,
     isOnPlayStore: false,
     technologyUsed: StringConst.FLUTTER,
-    gitHubUrl: StringConst.Musiq_PLUS_GITHUB_URL,
-    playStoreUrl: StringConst.Musiq_PLUS_PLAYSTORE_URL,
+    gitHubUrl: StringConst.Musiq_GITHUB_URL,
+    playStoreUrl: StringConst.Musiq_PLAYSTORE_URL,
   );
-  static ProjectItemData Netflix_CATALOG = ProjectItemData(
-    title: StringConst.Netflix_CATALOG,
-    subtitle: StringConst.Netflix_CATALOG,
-    platform: StringConst.Netflix_CATALOG_PLATFORM,
+  static ProjectItemData Netflix = ProjectItemData(
+    title: StringConst.Netflix,
+    subtitle: StringConst.Netflix,
+    platform: StringConst.Netflix_PLATFORM,
     primaryColor: AppColors.flutter_catalog,
     image: ImagePath.Netflix_COVER,
     coverUrl: ImagePath.Netflix_COVER,
@@ -434,13 +367,13 @@ class Projects {
     projectAssets: [
      //image list
     ],
-    category: StringConst.Netflix_CATALOG_CATEGORY,
-    portfolioDescription: StringConst.Netflix_CATALOG_DETAIL,
+    category: StringConst.Netflix_CATEGORY,
+    portfolioDescription: StringConst.Netflix_DETAIL,
     isPublic: true,
     isOnPlayStore: false,
     technologyUsed: StringConst.FLUTTER,
-    gitHubUrl: StringConst.Netflix_CATALOG_GITHUB_URL,
-    playStoreUrl: StringConst.Netflix_CATALOG_PLAYSTORE_URL,
+    gitHubUrl: StringConst.Netflix_GITHUB_URL,
+    playStoreUrl: StringConst.Netflix_PLAYSTORE_URL,
   );
   static ProjectItemData SocialMedia = ProjectItemData(
     title: StringConst.SocialMedia,

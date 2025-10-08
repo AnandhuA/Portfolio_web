@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/presentation/pages/about/about_page.dart';
 import 'package:portfolio/presentation/pages/contact_page.dart';
 import 'package:portfolio/presentation/pages/home/home_page.dart';
 import 'package:portfolio/presentation/pages/project_detail/project_detail_page.dart';
@@ -41,10 +42,10 @@ class RouteConfiguration {
       r'^' + ContactPage.contactPageRoute,
       (context, matches) => const ContactPage(),
     ),
-    // Path(
-    //   r'^' + AboutPage.aboutPageRoute,
-    //   (context, matches) => const AboutPage(),
-    // ),
+    Path(
+      r'^' + AboutPage.aboutPageRoute,
+      (context, matches) => const AboutPage(),
+    ),
     Path(
       r'^' + WorksPage.worksPageRoute,
       (context, matches) => const WorksPage(),

@@ -287,7 +287,7 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
                           ),
                           SpaceH40(),
                           AnimatedLineThroughText(
-                            text: StringConst.DEV_EMAIL,
+                            text: StringConst.AN_EMAIL,
                             hasSlideBoxAnimation: true,
                             controller: _contactController,
                             onTap: () {

@@ -115,16 +115,16 @@ class _ExperiencePageState extends State<ExperiencePage>
           ),
           Padding(
             padding: padding,
-            child: ContentArea(
-              width: contentAreaWidth,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: _buildExperienceSection(
-                  data: Data.experienceData,
-                  width: contentAreaWidth,
-                ),
-              ),
-            ),
+            // child: ContentArea(
+            //   width: contentAreaWidth,
+            //   child: Column(
+            //     crossAxisAlignment: CrossAxisAlignment.start,
+            //     children: _buildExperienceSection(
+            //       data: Data.experienceData,
+            //       width: contentAreaWidth,
+            //     ),
+            //   ),
+            // ),
           ),
           AnimatedFooter(),
         ],

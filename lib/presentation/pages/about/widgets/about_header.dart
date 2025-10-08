@@ -1,9 +1,9 @@
+import 'package:flutter/material.dart';
 import 'package:portfolio/core/layout/adaptive.dart';
 import 'package:portfolio/presentation/widgets/animated_text_slide_box_transition.dart';
 import 'package:portfolio/presentation/widgets/content_area.dart';
 import 'package:portfolio/presentation/widgets/spaces.dart';
 import 'package:portfolio/values/values.dart';
-import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class AboutHeader extends StatelessWidget {
@@ -42,15 +42,15 @@ class AboutHeader extends StatelessWidget {
                 width: widthOfScreen(context),
               ),
               SpaceH30(),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(80),
-                child: Image.asset(
-                  ImagePath.DEV,
-                  fit: BoxFit.cover,
-                  width: widthOfScreen(context),
-                  height: assignHeight(context, 0.45),
-                ),
-              ),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(80),
+              //   child: Image.asset(
+              //     ImagePath.DEV,
+              //     fit: BoxFit.cover,
+              //     width: widthOfScreen(context),
+              //     height: assignHeight(context, 0.45),
+              //   ),
+              // ),
             ],
           );
         } else {
@@ -75,8 +75,8 @@ class AboutHeader extends StatelessWidget {
                     minWidth: imageWidthLg,
                     maxHeight: assignHeight(context, 0.55),
                   ),
-                  child: Image.asset(ImagePath.DEV,
-                    fit: BoxFit.cover,),
+                  // child: Image.asset(ImagePath.DEV,
+                  //   fit: BoxFit.cover,),
                 ),
               ),
             ],
