@@ -184,7 +184,7 @@ class StringConst {
       "As you can tell, you're currently on my portfolio website (Aerium-v2) right now. Aerium-v2 is an elegant progressive web app built to help developers tell their story by showcasing their works and skills.";
   static const String PORTFOLIO_SITE_V2_GITHUB_URL =
       "https://github.com/david-legend/david-legend.github.io";
-  static const String PORTFOLIO_SITE_V2_WEB_URL = "https://davidcobbina.com/";
+  static const String PORTFOLIO_SITE_V2_WEB_URL = "";
 
 
 //---- social media ---------
@@ -331,7 +331,7 @@ class StringConst {
       "As you can tell, you're currently on Aerium v2 right now. It is the second iteration of my portfolio website. Aerium V2 is an elegant progressive website built to help developers tell their story by showcasing their works and skills.";
   static const String AERIUM_V2_GITHUB_URL =
       "https://github.com/david-legend/david-legend.github.io";
-  static const String AERIUM_V2_WEB_URL = "https://davidcobbina.com/#/";
+  static const String AERIUM_V2_WEB_URL = "";
 
   static const String OUTFITR = "Outfitr";
   static const String OUTFITR_PLATFORM = "Android / IOS.";
@@ -342,7 +342,7 @@ class StringConst {
       "With over 30 unique screens, Outfitr UI Kit is a valuable resource for any developer or enterpreneur that wants to standout from the crowd.";
   static const String OUTFITR_GITHUB_URL =
       "https://github.com/david-legend/david-legend.github.io";
-  static const String OUTFITR_WEB_URL = "https://davidcobbina.com/#/";
+  static const String OUTFITR_WEB_URL = "";
 
   //--------Noteworthy Projects --------
 

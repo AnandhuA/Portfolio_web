@@ -1,4 +1,4 @@
-package dev.davidcobbina.portfolio_site
+package dev.anandhu.portfolio_site
 
 import io.flutter.embedding.android.FlutterActivity
 
