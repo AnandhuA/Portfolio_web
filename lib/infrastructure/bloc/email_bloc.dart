@@ -10,22 +10,49 @@ part 'email_state.dart';
 
 part 'email_bloc.freezed.dart';
 
+// class EmailBloc extends Bloc<EmailEvent, EmailState> {
+//   final EmailRepository _emailRepository;
+
+//   EmailState get initialState => EmailState.initial();
+
+//   EmailBloc(this._emailRepository) : super(EmailState.initial());
+
+//   @override
+
+//   @override
+//   Stream<EmailState> mapEventToState(
+//     EmailEvent event,
+//   ) async* {
+//     if (event is EmailEvent) {
+//       yield EmailState.sendingEmail();
+      
+//       final response = await _emailRepository.sendEmail(
+//         name: event.name,
+//         email: event.email,
+//         subject: event.subject,
+//         message: event.message,
+//       );
+
+//       yield* response.fold(
+//         (failure) async* {
+//           yield EmailState.failure();
+//         },
+//         (data) async* {
+//           yield EmailState.emailSentSuccessFully();
+//         },
+//       );
+//     }
+//   }
+// }
+
+
 class EmailBloc extends Bloc<EmailEvent, EmailState> {
   final EmailRepository _emailRepository;
 
-  EmailState get initialState => EmailState.initial();
+  EmailBloc(this._emailRepository) : super(EmailState.initial()) {
+    on<SendEmail>((event, emit) async {
+      emit(EmailState.sendingEmail());
 
-  EmailBloc(this._emailRepository) : super(EmailState.initial());
-
-  @override
-
-  @override
-  Stream<EmailState> mapEventToState(
-    EmailEvent event,
-  ) async* {
-    if (event is EmailEvent) {
-      yield EmailState.sendingEmail();
-      
       final response = await _emailRepository.sendEmail(
         name: event.name,
         email: event.email,
@@ -33,14 +60,10 @@ class EmailBloc extends Bloc<EmailEvent, EmailState> {
         message: event.message,
       );
 
-      yield* response.fold(
-        (failure) async* {
-          yield EmailState.failure();
-        },
-        (data) async* {
-          yield EmailState.emailSentSuccessFully();
-        },
+      response.fold(
+        (failure) => emit(EmailState.failure()),
+        (data) => emit(EmailState.emailSentSuccessFully()),
       );
-    }
+    });
   }
 }
