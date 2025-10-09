@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:portfolio/core/layout/adaptive.dart';
 import 'package:portfolio/core/utils/functions.dart';
 import 'package:portfolio/presentation/pages/home/widgets/scroll_down.dart';
@@ -11,7 +12,6 @@ import 'package:portfolio/presentation/widgets/animated_slide_transtion.dart';
 import 'package:portfolio/presentation/widgets/animated_text_slide_box_transition.dart';
 import 'package:portfolio/presentation/widgets/spaces.dart';
 import 'package:portfolio/values/values.dart';
-import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 const kDuration = Duration(milliseconds: 600);
@@ -128,7 +128,7 @@ class _HomePageHeaderState extends State<HomePageHeader>
 
     return Container(
       width: screenWidth,
-      color: AppColors.accentColor2.withOpacity(0.35),
+      color: AppColors.accentColor2.withValues(alpha: 0.35),
       child: Stack(
         children: [
           Container(
@@ -147,25 +147,25 @@ class _HomePageHeaderState extends State<HomePageHeader>
                 children: [
                   Container(
                     padding: padding,
-                    child: AnimatedSlideTranstion(
-                      controller: controller,
-                      position: animation,
-                      child: Stack(
-                        children: [
-                          RotationTransition(
-                            turns: rotationController,
-                            child: Image.asset(
-                              ImagePath.DEV_SKILLS_2,
-                              width: screenWidth,
-                            ),
-                          ),
-                          // Image.asset(
-                          //   ImagePath.DEV_MEDITATE,
-                          //   width: screenWidth,
-                          // ),
-                        ],
-                      ),
-                    ),
+                    // child: AnimatedSlideTranstion(
+                    //   controller: controller,
+                    //   position: animation,
+                    //   child: Stack(
+                    //     children: [
+                    //       RotationTransition(
+                    //         turns: rotationController,
+                    //         child: Image.asset(
+                    //           ImagePath.DEV_SKILLS_2,
+                    //           width: screenWidth,
+                    //         ),
+                    //       ),
+                    //       Image.asset(
+                    //         ImagePath.DEV_CENTER,
+                    //         width: screenWidth * 0.35,
+                    //       ),
+                    //     ],
+                    //   ),
+                    // ),
                   ),
                   Container(
                     padding: padding.copyWith(top: 0),
@@ -208,10 +208,10 @@ class _HomePageHeaderState extends State<HomePageHeader>
                               width: screenWidth * 0.35,
                             ),
                           ),
-                          // Image.asset(
-                          //   ImagePath.DEV_MEDITATE,
-                          //   width: screenWidth * 0.35,
-                          // ),
+                          Image.asset(
+                            ImagePath.DEV_CENTER,
+                            width: screenWidth * 0.35,
+                          ),
                         ],
                       ),
                     ),
