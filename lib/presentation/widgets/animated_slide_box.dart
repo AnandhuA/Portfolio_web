@@ -48,11 +48,6 @@ class AnimatedSlideBox extends AnimatedWidget {
   
   @override
   Widget build(BuildContext context) {
-    // in this animation, we first animation a black container and later followed by a white box.
-    // but because the height and width for both boxes are the same, 
-    // we can still see a small part of the black box after the animation
-    // to remedy this, i use the variable hidden factor to offset the black box 
-    // so that it will be totally hidden by the white box
     return Container(
       width: width,
       height: height,

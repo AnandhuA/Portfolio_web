@@ -124,11 +124,6 @@ class _AppDrawerState extends State<AppDrawer>
                       ],
                     ),
                   ),
-                  // Text(
-                  //   StringConst.COPYRIGHT,
-                  //   style: style,
-                  // ),
-                  // SpaceH20(),
                 ],
               ),
               Positioned(

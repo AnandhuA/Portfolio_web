@@ -8,15 +8,10 @@ class StringConst {
   static const String HOME = "Home";
   static const String ABOUT = "About";
   static const String WORKS = "Works";
-  static const String EXPERIENCE = "Experience";
-  static const String PRIVACY_POLICY = "Privacy Policy";
   static const String PROJECT = "Project";
-  static const String WORK = "Where I've Worked";
-  static const String SERVICES = "Services";
   static const String CONTACT = "Contact";
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
-  // static const String CERTIFICATIONS = "Certifications";
   static const String EMAIL_VALUE = "anandhu1407@gmail.com";
 
   // Home Page
@@ -107,26 +102,10 @@ class StringConst {
   static const String NEXT_PROJECT = "Next Project";
 
   static const String VIEW = "View";
-  static const String COMING_SOON = "COMING SOON !!";
-  // static const String BUILT_WITH_FLUTTER = "Built using ";
   static const String AN_EMAIL = "anandhu1407@gmail.com";
   static const String EMAIL_URL = "mailto:<$AN_EMAIL>?subject=&body=";
 
-  static const String KEY_SKILLS = "KEY SKILLS";
-  static const String EXPERIENCE_2 = "EXPERIENCE";
-  static const String EDUCATION = "EDUCATION";
-
-  static const String SEND_ME_A_MESSAGE = "Send me a message";
-  static const String VIEW_PORTFOLIO = "View Portfolio";
-
-  static const String PROJECT_NAME = "Project Name";
-
-  static const String INTRO = "Hi, my name is";
   static const String DEV_NAME = "Anandhu";
-  static const String PUNCH_LINE = "I build things with flutter";
-  static const String SPECIALITY = "FLUTTER DEV";
-  static const String BUILT_BY = "Built by Anandhu ";
-
   
   //Form Hint Texts
   static const String NAME_HINT_TEXT = "Name";
@@ -151,12 +130,8 @@ class StringConst {
   static const String CONTACT_PAGE = "/contact";
   static const String PROJECT_PAGE = "/project";
   static const String PROJECT_DETAIL_PAGE = "/project-detail";
-  static const String SERVICES_PAGE = "/services";
   static const String MESSAGE_PAGE = "/message-me";
-  static const String EXPERIENCE_PAGE = "/experience";
-  static const String PRIVACY_POLICY_PAGE = "/privacy-policy";
   static const String RESUME_PAGE = "/resume";
-  static const String CERTIFICATION_PAGE = "/certifications";
 
   //Socials
 
@@ -167,24 +142,10 @@ class StringConst {
       "https://www.instagram.com/anandhu14_";
 
   //Contacts
-  static const String CONNECT = "Connect with me";
   static const String EMAIL = "Email";
   static const String LINKED_IN = "LinkedIn";
   static const String INSTAGRAM = "Instagram";
   static const String GITHUB = "Github";
-
-  //Portfolio, Projects
-  static const String PORTFOLIO_SITE_V2 = "Aerium V2";
-  static const String PORTFOLIO_SITE_V2_PLATFORM = "Web";
-  static const String PORTFOLIO_SITE_V2_CATEGORY = "Portfolio / CV.";
-  static const String PORTFOLIO_SITE_V2_DESIGNER = "Julius Guevarra.";
-  static const String PORTFOLIO_SITE_V2_SUBTITLE =
-      "A beautiful portfolio website built with flutter web.";
-  static const String PORTFOLIO_SITE_V2_DETAIL =
-      "As you can tell, you're currently on my portfolio website (Aerium-v2) right now. Aerium-v2 is an elegant progressive web app built to help developers tell their story by showcasing their works and skills.";
-  static const String PORTFOLIO_SITE_V2_GITHUB_URL =
-      "https://github.com/david-legend/david-legend.github.io";
-  static const String PORTFOLIO_SITE_V2_WEB_URL = "";
 
 
 //---- social media ---------
@@ -284,7 +245,7 @@ class StringConst {
 //------------ Music App ---------- 
 
   static const String Musiq = "Musiq";
-  static const String Musiq_PLATFORM = "Android.";
+  static const String Musiq_PLATFORM = "Android / Windows / IOS. ";
   static const String Musiq_CATEGORY = "Music App 🎵";
   static const String Musiq_SUBTITLE =
       "This Flutter-based music app utilizes BLoC for state management and integrates with the JioSaavn API to fetch and play music";
@@ -306,43 +267,6 @@ class StringConst {
   static const String Netflix_PLAYSTORE_URL = "";
   static const String Netflix_GITHUB_URL =
       "https://github.com/AnandhuA/Netflix-.git";
-
-
-//----------------------
-  static const String AERIUM = "Aerium";
-  static const String AERIUM_PLATFORM = "Web.";
-  static const String AERIUM_CATEGORY = "Portfolio / CV.";
-  static const String AERIUM_DESIGNER = "Pavel G.";
-  static const String AERIUM_SUBTITLE =
-      "A progressive web app for showcasing your portfolio.";
-  static const String AERIUM_DETAIL =
-      "Aerium is the first iteration of my portfolio. Aerium is an elegant portfolio website built to help developers tell their story by showcasing their works and skills.";
-  static const String AERIUM_GITHUB_URL =
-      "https://github.com/david-legend/aerium";
-  static const String AERIUM_WEB_URL = "http://david-legend.github.io/aerium";
-
-  static const String AERIUM_V2 = "Aerium V2 ";
-  static const String AERIUM_V2_PLATFORM = "Web.";
-  static const String AERIUM_V2_CATEGORY = "Portfolio / CV.";
-  static const String AERIUM_V2_DESIGNER = "Julius G.";
-  static const String AERIUM_V2_SUBTITLE =
-      "A progressive web app for showcasing your portfolio.";
-  static const String AERIUM_V2_DETAIL =
-      "As you can tell, you're currently on Aerium v2 right now. It is the second iteration of my portfolio website. Aerium V2 is an elegant progressive website built to help developers tell their story by showcasing their works and skills.";
-  static const String AERIUM_V2_GITHUB_URL =
-      "https://github.com/david-legend/david-legend.github.io";
-  static const String AERIUM_V2_WEB_URL = "";
-
-  static const String OUTFITR = "Outfitr";
-  static const String OUTFITR_PLATFORM = "Android / IOS.";
-  static const String OUTFITR_CATEGORY = "Ecommerce.";
-  static const String OUTFITR_SUBTITLE =
-      "Design your fashion app faster and easier with Outfitr Fashion UI Kit.";
-  static const String OUTFITR_DETAIL =
-      "With over 30 unique screens, Outfitr UI Kit is a valuable resource for any developer or enterpreneur that wants to standout from the crowd.";
-  static const String OUTFITR_GITHUB_URL =
-      "https://github.com/david-legend/david-legend.github.io";
-  static const String OUTFITR_WEB_URL = "";
 
   //--------Noteworthy Projects --------
 

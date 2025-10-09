@@ -195,6 +195,55 @@ class Data {
   ];
 
   static List<NoteWorthyProjectDetails> noteworthyProjects = [
+
+//----------- portfolio ------
+    NoteWorthyProjectDetails(
+      projectName: StringConst.PORTFOLIO_WEB,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: false,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription: StringConst.PORTFOLIO_WEB_DETAIL,
+      gitHubUrl: StringConst.PORTFOLIO_WEB_GITHUB_URL,
+      isLive: false,
+    ),
+
+    //----- yt download ---------
+    NoteWorthyProjectDetails(
+      projectName: StringConst.YT_DOWNLOAD,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: true,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription: StringConst.YT_DOWNLOAD_DETAIL,
+      gitHubUrl: StringConst.YT_DOWNLOAD_GITHUB_URL,
+      isLive: false,
+    ),
+
+  //--------report -------- 
+    NoteWorthyProjectDetails(
+      projectName: StringConst.REPORT,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: false,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription: StringConst.REPORT_DETAIL,
+      gitHubUrl: StringConst.REPORT_GITHUB_URL,
+      isLive: false,
+    ),
+
+//----------- student data base -------
+    NoteWorthyProjectDetails(
+      projectName: StringConst.STUDENTDATABASE,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: false,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription: StringConst.STUDENTDATABASE_DETAIL,
+      gitHubUrl: StringConst.STUDENTDATABASE_GITHUB_URL,
+      isLive: false,
+    ),
+
   
 //---------- nothing clone ------- 
     NoteWorthyProjectDetails(
@@ -232,104 +281,8 @@ class Data {
       isLive: false,
     ),
 
-//--------report -------- 
-    NoteWorthyProjectDetails(
-      projectName: StringConst.REPORT,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.REPORT_DETAIL,
-      gitHubUrl: StringConst.REPORT_GITHUB_URL,
-      isLive: false,
-    ),
 
-//----------- portfolio ------
-    NoteWorthyProjectDetails(
-      projectName: StringConst.PORTFOLIO_WEB,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.PORTFOLIO_WEB_DETAIL,
-      gitHubUrl: StringConst.PORTFOLIO_WEB_GITHUB_URL,
-      isLive: false,
-    ),
-
-//----------- student data base -------
-    NoteWorthyProjectDetails(
-      projectName: StringConst.STUDENTDATABASE,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.STUDENTDATABASE_DETAIL,
-      gitHubUrl: StringConst.STUDENTDATABASE_GITHUB_URL,
-      isLive: false,
-    ),
-//----- yt download ---------
-    NoteWorthyProjectDetails(
-      projectName: StringConst.YT_DOWNLOAD,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: true,
-      technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.YT_DOWNLOAD_DETAIL,
-      gitHubUrl: StringConst.YT_DOWNLOAD_GITHUB_URL,
-      isLive: false,
-    ),
   ];
-
-  // static List<ExperienceData> experienceData = [
-  //   ExperienceData(
-  //     company: StringConst.COMPANY_5,
-  //     position: StringConst.POSITION_5,
-  //     companyUrl: StringConst.COMPANY_5_URL,
-  //     roles: [
-  //       StringConst.COMPANY_5_ROLE_1,
-  //       StringConst.COMPANY_5_ROLE_2,
-  //       StringConst.COMPANY_5_ROLE_3,
-  //     ],
-  //     location: StringConst.LOCATION_5,
-  //     duration: StringConst.DURATION_5,
-  //   ),
-  //   ExperienceData(
-  //     company: StringConst.COMPANY_4,
-  //     position: StringConst.POSITION_4,
-  //     companyUrl: StringConst.COMPANY_4_URL,
-  //     roles: [
-  //       StringConst.COMPANY_4_ROLE_1,
-  //       StringConst.COMPANY_4_ROLE_2,
-  //       StringConst.COMPANY_4_ROLE_3,
-  //     ],
-  //     location: StringConst.LOCATION_4,
-  //     duration: StringConst.DURATION_4,
-  //   ),
-  //   ExperienceData(
-  //     company: StringConst.COMPANY_3,
-  //     position: StringConst.POSITION_3,
-  //     companyUrl: StringConst.COMPANY_3_URL,
-  //     roles: [
-  //       StringConst.COMPANY_3_ROLE_1,
-  //       StringConst.COMPANY_3_ROLE_2,
-  //       StringConst.COMPANY_3_ROLE_3,
-  //     ],
-  //     location: StringConst.LOCATION_3,
-  //     duration: StringConst.DURATION_3,
-  //   ),
-  //   ExperienceData(
-  //     company: StringConst.COMPANY_2,
-  //     position: StringConst.POSITION_2,
-  //     companyUrl: StringConst.COMPANY_2_URL,
-  //     roles: [
-  //       StringConst.COMPANY_2_ROLE_1,
-  //       StringConst.COMPANY_2_ROLE_2,
-  //       StringConst.COMPANY_2_ROLE_3,
-  //     ],
-  //     location: StringConst.LOCATION_2,
-  //     duration: StringConst.DURATION_2,
-  //   ),
-  // ];
 }
 
 class Projects {
@@ -518,48 +471,5 @@ class Projects {
     gitHubUrl: StringConst.PingChat_GITHUB_URL,
     webUrl: StringConst.PingChat_WEB_URL,
   );
-
-// //---------------- 
-//   static ProjectItemData AERIUM = ProjectItemData(
-//     title: StringConst.AERIUM,
-//     subtitle: StringConst.AERIUM_SUBTITLE,
-//     primaryColor: AppColors.aerium_v1,
-//     platform: StringConst.AERIUM_PLATFORM,
-//     category: StringConst.AERIUM_CATEGORY,
-//     designer: StringConst.AERIUM_DESIGNER,
-//     image: ImagePath.AERIUM_COVER,
-//     coverUrl: ImagePath.AERIUM_COVER,
-//     navTitleColor: AppColors.aeriumV1NavTitle,
-//     projectAssets: [
-//    //image list
-//     ],
-//     portfolioDescription: StringConst.AERIUM_DETAIL,
-//     isPublic: true,
-//     isLive: false,
-//     technologyUsed: StringConst.FLUTTER,
-//     gitHubUrl: StringConst.AERIUM_GITHUB_URL,
-//     webUrl: StringConst.AERIUM_WEB_URL,
-//   );
-
-// //---------------------
-//   static ProjectItemData AERIUM_V2 = ProjectItemData(
-//     title: StringConst.AERIUM_V2,
-//     subtitle: StringConst.AERIUM_V2_SUBTITLE,
-//     category: StringConst.AERIUM_V2_CATEGORY,
-//     designer: StringConst.AERIUM_V2_DESIGNER,
-//     primaryColor: AppColors.aerium_v1,
-//     platform: StringConst.AERIUM_V2_PLATFORM,
-//     image: ImagePath.AERIUM_V2_LAST,
-//     coverUrl: ImagePath.AERIUM_V2_LAST,
-//     portfolioDescription: StringConst.AERIUM_V2_DETAIL,
-//     projectAssets: [
-//      //images
-//     ],
-//     isPublic: true,
-//     isLive: false,
-//     technologyUsed: StringConst.FLUTTER,
-//     gitHubUrl: StringConst.AERIUM_V2_GITHUB_URL,
-//     webUrl: StringConst.AERIUM_V2_WEB_URL,
-//   );
   
 }

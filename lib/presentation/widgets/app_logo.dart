@@ -4,7 +4,7 @@ import 'package:portfolio/values/values.dart';
 class AppLogo extends StatelessWidget {
   const AppLogo({
     Key? key,
-    this.title = "An",
+    this.title = "An.",
     this.titleColor = AppColors.black,
     this.titleStyle,
     this.fontSize = 60,
