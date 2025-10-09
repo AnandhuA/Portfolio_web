@@ -77,11 +77,6 @@ class _AppDrawerState extends State<AppDrawer>
 
   @override
   Widget build(BuildContext context) {
-    TextTheme textTheme = Theme.of(context).textTheme;
-    TextStyle? style = textTheme.bodyLarge?.copyWith(
-      color: AppColors.grey500,
-      fontSize: Sizes.TEXT_SIZE_10,
-    );
     return Container(
       width: widget.width ?? widthOfScreen(context),
       height: heightOfScreen(context),

@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field
+
 import 'package:portfolio/core/layout/adaptive.dart';
 import 'package:portfolio/values/values.dart';
 import 'package:flutter/material.dart';

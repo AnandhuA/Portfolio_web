@@ -1,6 +1,8 @@
+// ignore_for_file: must_be_immutable
+
+import 'package:flutter/material.dart';
 import 'package:portfolio/presentation/widgets/spaces.dart';
 import 'package:portfolio/values/values.dart';
-import 'package:flutter/material.dart';
 
 class AnimatedBubbleButton extends StatefulWidget {
   AnimatedBubbleButton({
@@ -90,28 +92,6 @@ class _AnimatedBubbleButtonState extends State<AnimatedBubbleButton>
       fontSize: Sizes.TEXT_SIZE_16,
       fontWeight: FontWeight.w500,
     );
-    // return MouseRegion(
-    //   cursor: SystemMouseCursors.click,
-    //   child: Link(
-    //     uri: Uri.parse('https://creativemaybeno.dev'),
-    //     target: LinkTarget.blank,
-    //     builder: (context, followLink) {
-    //       return GestureDetector(
-    //         onTap: followLink,
-    //         child: const Text(
-    //           'my amazing link',
-    //           style: TextStyle(
-    //             decoration: TextDecoration.underline,
-    //             // The default link color according to the HTML living standard.
-    //             // See https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3,
-    //             // which defines :link { color: #0000EE; }.
-    //             color: Color(0xff0000ee),
-    //           ),
-    //         ),
-    //       );
-    //     },
-    //   ),
-    // );
     return MouseRegion(
       onEnter: widget.controlsOwnAnimation ? (e) => _mouseEnter(true) : null,
       onExit: widget.controlsOwnAnimation ? (e) => _mouseEnter(false) : null,

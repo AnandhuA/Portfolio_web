@@ -333,6 +333,8 @@ class Data {
 }
 
 class Projects {
+
+//----------- Muisc ----------- 
   static ProjectItemData Musiq = ProjectItemData(
     title: StringConst.Musiq,
     subtitle: StringConst.Musiq,
@@ -340,8 +342,9 @@ class Projects {
     primaryColor: AppColors.musiq,
     image: ImagePath.Musiq_COVER,
     coverUrl: ImagePath.Musiq_SCREENS,
-    navSelectedTitleColor: AppColors.flutterCatalogSelectedNavTitle,
-    appLogoColor: AppColors.flutterCatalogAppLogo,
+    navSelectedTitleColor: AppColors.musiqSelectedNavTitle,
+    navTitleColor: AppColors.musiqNavTitle,
+    appLogoColor: AppColors.musiqAppLogo,
     projectAssets: [
      //image list
     ],
@@ -353,15 +356,17 @@ class Projects {
     gitHubUrl: StringConst.Musiq_GITHUB_URL,
     playStoreUrl: StringConst.Musiq_PLAYSTORE_URL,
   );
+
+//---------- Netflix ------------- 
   static ProjectItemData Netflix = ProjectItemData(
     title: StringConst.Netflix,
     subtitle: StringConst.Netflix,
     platform: StringConst.Netflix_PLATFORM,
-    primaryColor: AppColors.flutter_catalog,
+    primaryColor: AppColors.netflix,
     image: ImagePath.Netflix_COVER,
     coverUrl: ImagePath.Netflix_COVER,
-    navSelectedTitleColor: AppColors.flutterCatalogSelectedNavTitle,
-    appLogoColor: AppColors.flutterCatalogAppLogo,
+    navSelectedTitleColor: AppColors.netflixSelectedNavTitle,
+    appLogoColor: AppColors.netflixAppLogo,
     projectAssets: [
      //image list
     ],
@@ -373,18 +378,20 @@ class Projects {
     gitHubUrl: StringConst.Netflix_GITHUB_URL,
     playStoreUrl: StringConst.Netflix_PLAYSTORE_URL,
   );
+
+//----------- Social Media ------ 
   static ProjectItemData SocialMedia = ProjectItemData(
     title: StringConst.SocialMedia,
     subtitle: StringConst.SocialMedia,
     platform: StringConst.SocialMedia_PLATFORM,
-    primaryColor: AppColors.drop,
-    image: ImagePath.DROP_COVER,
+    primaryColor: AppColors.socialMedia,
+    image: ImagePath.SocialMedia_COVER,
     category: StringConst.SocialMedia_CATEGORY,
     designer: StringConst.SocialMedia_DESIGNER,
-    coverUrl: ImagePath.DROP_COVER,
-    navTitleColor: AppColors.dropNavTitle,
-    navSelectedTitleColor: AppColors.dropSelectedNavTitle,
-    appLogoColor: AppColors.dropAppLogo,
+    coverUrl: ImagePath.SocialMedia_COVER,
+    navTitleColor: AppColors.socialMediaNavTitle,
+    navSelectedTitleColor: AppColors.socialMediaSelectedNavTitle,
+    appLogoColor: AppColors.socialMediaAppLogo,
     projectAssets: [
      //image list
     ],
@@ -395,18 +402,20 @@ class Projects {
     gitHubUrl: StringConst.SocialMedia_GITHUB_URL,
     playStoreUrl: StringConst.SocialMedia_PLAYSTORE_URL,
   );
+
+//---------- Travel ---------
   static ProjectItemData Travel = ProjectItemData(
     title: StringConst.Travel,
     subtitle: StringConst.Travel,
-    primaryColor: AppColors.roam,
+    primaryColor: AppColors.travel,
     category: StringConst.Travel_CATEGORY,
     designer: StringConst.Travel_DESIGNER,
     platform: StringConst.Travel_PLATFORM,
     image: ImagePath.Travel_COVER,
     coverUrl: ImagePath.Travel_COVER,
-    navTitleColor: AppColors.roamNavTitle,
-    navSelectedTitleColor: AppColors.roamSelectedNavTitle,
-    appLogoColor: AppColors.roamAppLogo,
+    navTitleColor: AppColors.travelNavTitle,
+    navSelectedTitleColor: AppColors.travelSelectedNavTitle,
+    appLogoColor: AppColors.travelAppLogo,
     projectAssets: [
      //image list
     ],
@@ -417,18 +426,20 @@ class Projects {
     gitHubUrl: StringConst.Travel_GITHUB_URL,
     playStoreUrl: StringConst.Travel_PLAYSTORE_URL,
   );
+
+//-------- Money Mangement ------
   static ProjectItemData MoneyManagement = ProjectItemData(
     title: StringConst.MoneyManagement,
-    primaryColor: AppColors.login_catalog,
+    primaryColor: AppColors.moneyManagement,
     subtitle: StringConst.MoneyManagement,
     category: StringConst.MoneyManagement_CATEGORY,
     platform: StringConst.MoneyManagement_PLATFORM,
-    image: ImagePath.LOGIN_CATALOG_COVER,
-    coverUrl: ImagePath.LOGIN_CATALOG_COVER,
+    image: ImagePath.MoneyManagement_COVER,
+    coverUrl: ImagePath.MoneyManagement_COVER,
     portfolioDescription: StringConst.MoneyManagement_DETAIL,
-    navTitleColor: AppColors.loginCatalogNavTitle,
-    navSelectedTitleColor: AppColors.loginCatalogSelectedNavTitle,
-    appLogoColor: AppColors.loginCatalogAppLogo,
+    navTitleColor: AppColors.moneyManagementNavTitle,
+    navSelectedTitleColor: AppColors.moneyManagementSelectedNavTitle,
+    appLogoColor: AppColors.moneyManagementAppLogo,
     projectAssets: [
      //image list
     ],
@@ -438,18 +449,20 @@ class Projects {
     gitHubUrl: StringConst.MoneyManagement_GITHUB_URL,
     playStoreUrl: StringConst.MoneyManagement_PLAYSTORE_URL,
   );
+
+//----------Note App ----
   static ProjectItemData NoteApp = ProjectItemData(
     title: StringConst.NoteApp,
     subtitle: StringConst.NoteApp_SUBTITLE,
     category: StringConst.NoteApp_CATEGORY,
     designer: StringConst.NoteApp_DESIGNER,
-    primaryColor: AppColors.foodybite,
+    primaryColor: AppColors.noteApp,
     platform: StringConst.NoteApp_PLATFORM,
     image: ImagePath.NoteApp_COVER,
     coverUrl: ImagePath.NoteApp_COVER,
-    navTitleColor: AppColors.foodybiteNavTitle,
-    navSelectedTitleColor: AppColors.foodybiteSelectedNavTitle,
-    appLogoColor: AppColors.foodybiteAppLogo,
+    navTitleColor: AppColors.noteAppNavTitle,
+    navSelectedTitleColor: AppColors.noteAppSelectedNavTitle,
+    appLogoColor: AppColors.noteAppAppLogo,
     projectAssets: [
       //image list
     ],
@@ -460,17 +473,20 @@ class Projects {
     gitHubUrl: StringConst.NoteApp_GITHUB_URL,
     playStoreUrl: StringConst.NoteApp_PLAYSTORE_URL,
   );
+
+//------weather ---------
   static ProjectItemData WeatherApp = ProjectItemData(
     title: StringConst.WeatherApp,
     subtitle: StringConst.WeatherApp,
-    primaryColor: AppColors.nimbus,
+    primaryColor: AppColors.weather,
     platform: StringConst.WeatherApp_PLATFORM,
     category: StringConst.WeatherApp_CATEGORY,
     designer: StringConst.WeatherApp_DESIGNER,
     image: ImagePath.Weather_COVER,
     coverUrl: ImagePath.Weather_COVER,
-    navTitleColor: AppColors.nimbusNavTitle,
-    navSelectedTitleColor: AppColors.nimbusSelectedNavTitle,
+    navTitleColor: AppColors.weatherNavTitle,
+    navSelectedTitleColor: AppColors.weatherSelectedNavTitle,
+    appLogoColor: AppColors.weatherAppLogo,
     projectAssets: [
    //image list
     ],
@@ -482,62 +498,68 @@ class Projects {
     gitHubUrl: StringConst.WeatherApp_GITHUB_URL,
     webUrl: StringConst.WeatherApp_WEB_URL,
   );
+
+//--------- Ping Chat ---------- 
   static ProjectItemData PingChat = ProjectItemData(
     title: StringConst.PingChat,
     subtitle: StringConst.PingChat_SUBTITLE,
     category: StringConst.PingChat_CATEGORY,
-    primaryColor: AppColors.otp_package,
+    primaryColor: AppColors.pingChat,
     platform: StringConst.PingChat_PLATFORM,
-    image: ImagePath.OTP_TEXTFIELD_COVER,
-    coverUrl: ImagePath.OTP_TEXTFIELD_COVER,
+    image: ImagePath.PingChat_COVER,
+    coverUrl: ImagePath.PingChat_COVER,
     portfolioDescription: StringConst.PingChat_DETAIL,
-    navTitleColor: AppColors.otpPackageNavTitle,
-    navSelectedTitleColor: AppColors.otpPackageSelectedNavTitle,
-    appLogoColor: AppColors.otpPackageAppLogo,
+    navTitleColor: AppColors.pingChatNavTitle,
+    navSelectedTitleColor: AppColors.pingChatSelectedNavTitle,
+    appLogoColor: AppColors.pingChatAppLogo,
     isPublic: true,
     isLive: false,
     technologyUsed: StringConst.FLUTTER,
     gitHubUrl: StringConst.PingChat_GITHUB_URL,
     webUrl: StringConst.PingChat_WEB_URL,
   );
-  static ProjectItemData AERIUM = ProjectItemData(
-    title: StringConst.AERIUM,
-    subtitle: StringConst.AERIUM_SUBTITLE,
-    primaryColor: AppColors.aerium_v1,
-    platform: StringConst.AERIUM_PLATFORM,
-    category: StringConst.AERIUM_CATEGORY,
-    designer: StringConst.AERIUM_DESIGNER,
-    image: ImagePath.AERIUM_COVER,
-    coverUrl: ImagePath.AERIUM_COVER,
-    navTitleColor: AppColors.aeriumV1NavTitle,
-    projectAssets: [
-   //image list
-    ],
-    portfolioDescription: StringConst.AERIUM_DETAIL,
-    isPublic: true,
-    isLive: false,
-    technologyUsed: StringConst.FLUTTER,
-    gitHubUrl: StringConst.AERIUM_GITHUB_URL,
-    webUrl: StringConst.AERIUM_WEB_URL,
-  );
-  static ProjectItemData AERIUM_V2 = ProjectItemData(
-    title: StringConst.AERIUM_V2,
-    subtitle: StringConst.AERIUM_V2_SUBTITLE,
-    category: StringConst.AERIUM_V2_CATEGORY,
-    designer: StringConst.AERIUM_V2_DESIGNER,
-    primaryColor: AppColors.aerium_v1,
-    platform: StringConst.AERIUM_V2_PLATFORM,
-    image: ImagePath.AERIUM_V2_LAST,
-    coverUrl: ImagePath.AERIUM_V2_LAST,
-    portfolioDescription: StringConst.AERIUM_V2_DETAIL,
-    projectAssets: [
-     //images
-    ],
-    isPublic: true,
-    isLive: false,
-    technologyUsed: StringConst.FLUTTER,
-    gitHubUrl: StringConst.AERIUM_V2_GITHUB_URL,
-    webUrl: StringConst.AERIUM_V2_WEB_URL,
-  );
+
+// //---------------- 
+//   static ProjectItemData AERIUM = ProjectItemData(
+//     title: StringConst.AERIUM,
+//     subtitle: StringConst.AERIUM_SUBTITLE,
+//     primaryColor: AppColors.aerium_v1,
+//     platform: StringConst.AERIUM_PLATFORM,
+//     category: StringConst.AERIUM_CATEGORY,
+//     designer: StringConst.AERIUM_DESIGNER,
+//     image: ImagePath.AERIUM_COVER,
+//     coverUrl: ImagePath.AERIUM_COVER,
+//     navTitleColor: AppColors.aeriumV1NavTitle,
+//     projectAssets: [
+//    //image list
+//     ],
+//     portfolioDescription: StringConst.AERIUM_DETAIL,
+//     isPublic: true,
+//     isLive: false,
+//     technologyUsed: StringConst.FLUTTER,
+//     gitHubUrl: StringConst.AERIUM_GITHUB_URL,
+//     webUrl: StringConst.AERIUM_WEB_URL,
+//   );
+
+// //---------------------
+//   static ProjectItemData AERIUM_V2 = ProjectItemData(
+//     title: StringConst.AERIUM_V2,
+//     subtitle: StringConst.AERIUM_V2_SUBTITLE,
+//     category: StringConst.AERIUM_V2_CATEGORY,
+//     designer: StringConst.AERIUM_V2_DESIGNER,
+//     primaryColor: AppColors.aerium_v1,
+//     platform: StringConst.AERIUM_V2_PLATFORM,
+//     image: ImagePath.AERIUM_V2_LAST,
+//     coverUrl: ImagePath.AERIUM_V2_LAST,
+//     portfolioDescription: StringConst.AERIUM_V2_DETAIL,
+//     projectAssets: [
+//      //images
+//     ],
+//     isPublic: true,
+//     isLive: false,
+//     technologyUsed: StringConst.FLUTTER,
+//     gitHubUrl: StringConst.AERIUM_V2_GITHUB_URL,
+//     webUrl: StringConst.AERIUM_V2_WEB_URL,
+//   );
   
 }

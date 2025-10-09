@@ -1,9 +1,10 @@
+// ignore_for_file: unused_local_variable, unused_element
+
 import 'package:portfolio/core/layout/adaptive.dart';
 import 'package:portfolio/presentation/pages/widgets/animated_footer.dart';
 import 'package:portfolio/presentation/pages/widgets/page_header.dart';
 import 'package:portfolio/presentation/widgets/animated_positioned_text.dart';
 import 'package:portfolio/presentation/widgets/animated_text_slide_box_transition.dart';
-import 'package:portfolio/presentation/widgets/content_area.dart';
 import 'package:portfolio/presentation/widgets/content_builder.dart';
 import 'package:portfolio/presentation/widgets/custom_spacer.dart';
 import 'package:portfolio/presentation/widgets/page_wrapper.dart';

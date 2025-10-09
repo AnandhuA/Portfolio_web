@@ -31,51 +31,45 @@ class AppColors {
   static const Color errorRed = Color(0xFFFF2019);
 
   // Project Primary Colors
-  // static const Color disneyPlus = Color(0xFF000000);
   static const Color musiq = Color(0xFF9D6DF7);
+  static const Color musiqSelectedNavTitle = Color.fromARGB(255, 143, 143, 143);
+   static const Color musiqNavTitle = Colors.black;
+  static const Color musiqAppLogo = Colors.black;
 
-  static const Color nimbus = Color(0xFFF6C350);
-  static const Color nimbusNavTitle = AppColors.black;
-  static const Color nimbusSelectedNavTitle = Color(0xFFF6C350);
+  static const Color weather = Color(0xFFF6C350);
+  static const Color weatherNavTitle = Color.fromARGB(255, 143, 143, 143);
+  static const Color weatherSelectedNavTitle = Color(0xFFF6C350);
+   static const Color weatherAppLogo = Color(0xFFF6C350);
 
-  static const Color foodybite = Color(0xFF6B79F6);
-  static const Color foodybiteNavTitle =  Color(0xFFB2B9CF);
-  static const Color foodybiteSelectedNavTitle =  Color(0xFF212455);
-  static const Color foodybiteAppLogo =  Color(0xFF808BF6);
+  static const Color noteApp = Color(0xFF6B79F6);
+  static const Color noteAppNavTitle = Color.fromARGB(255, 143, 143, 143);
+  static const Color noteAppSelectedNavTitle = Color(0xFF6B79F6);
+  static const Color noteAppAppLogo = Color(0xFF808BF6);
 
-  static const Color flutter_catalog = Color(0xFF5A458D);
-  static const Color flutterCatalogSelectedNavTitle = Color(0xFF7D54A9);
-  static const Color flutterCatalogAppLogo = Color(0xFF7D54A9);
+  static const Color netflix = Color(0xFF5A458D);
+  static const Color netflixSelectedNavTitle = Color(0xFF7D54A9);
+  static const Color netflixAppLogo = Color(0xFF7D54A9);
 
-  static const Color login_catalog = Color(0xFFC95089);
-  static const Color loginCatalogNavTitle = Color(0xFF2F3446);
-  static const Color loginCatalogSelectedNavTitle = Color(0xFFC95089);
-  static const Color loginCatalogAppLogo = Color(0xFFC95089);
+  static const Color moneyManagement = Color.fromARGB(255, 80, 201, 130);
+  static const Color moneyManagementNavTitle = Color.fromARGB(255, 57, 70, 47);
+  static const Color moneyManagementSelectedNavTitle =
+      Color.fromARGB(255, 80, 201, 130);
+  static const Color moneyManagementAppLogo = Color.fromARGB(255, 80, 201, 165);
 
-  static const Color roam = Color(0xFF2762CB);
-  static const Color roamNavTitle = Color(0xFF6F8D8C);
-  static const Color roamSelectedNavTitle = Color(0xFF2E524B);
-  static const Color roamAppLogo = Color(0xFF2762CB);
+  static const Color travel = Color(0xFF2762CB);
+  static const Color travelNavTitle = Colors.black;
+  static const Color travelSelectedNavTitle = Color(0xFF2762CB);
+  static const Color travelAppLogo = Color(0xFF2762CB);
 
-  static const Color drop = Color(0xFF6A53A1);
-  static const Color dropNavTitle = Color(0xFF2A5A4A);
-  static const Color dropSelectedNavTitle = Color(0xFFDC7F4A);
-  static const Color dropAppLogo = Color(0xFFF5B843);
+  static const Color socialMedia = Color(0xFF6A53A1);
+  static const Color socialMediaNavTitle = Color.fromARGB(255, 143, 143, 143);
+  static const Color socialMediaSelectedNavTitle = Color.fromARGB(255, 46, 101, 252);
+  static const Color socialMediaAppLogo = Color.fromARGB(255, 46, 101, 252);
 
-  static const Color aerium_v1 = Color(0xFF0E1319);
-  static const Color aeriumV1NavTitle = Color(0xFF162726);
+  static const Color pingChat = Color.fromARGB(255, 83, 126, 161);
+  static const Color pingChatNavTitle = Color.fromARGB(255, 143, 143, 143);
+  static const Color pingChatSelectedNavTitle =
+      Color.fromARGB(255, 83, 101, 161);
+  static const Color pingChatAppLogo = Colors.black;
 
-  static const Color aerium_v2 = primaryColor;
-  static const Color aeriumV2NavTitle = Color(0xFFF6C350);
-  static const Color aeriumV2SelectedNavTitle = Color(0xFFF6C350);
-
-  static const Color otp_package = drop;
-  static const Color otpPackageNavTitle = AppColors.black;
-  static const Color otpPackageSelectedNavTitle = drop;
-  static const Color otpPackageAppLogo = Color(0xFF8E7AEF);
-
-  static const Color outfitr = Color(0xFF2DB8AF);
-  static const Color outfitrNavTitle = Color(0xFF0A0E32);
-  static const Color outfitrSelectedNavTitle = Color(0xFF377F8C);
-  static const Color outfitrAppLogo = Color(0xFF2DB8AF);
 }

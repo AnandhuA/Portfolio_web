@@ -274,7 +274,7 @@ class StringConst {
   static const String PingChat_SUBTITLE =
       "Flutter-base chating application";
   static const String PingChat_DETAIL =
-      "";
+      "\"Ping to Chat\" is a versatile and efficient messaging application designed for seamless communication within a local network. Built with Flutter, it offers true cross-platform compatibility, allowing users on Android, Windows, Linux, and iOS devices to connect and chat effortlessly. This means you can easily communicate with colleagues, friends, or family who are all connected to the same Wi-Fi network, without relying on external servers or internet connectivity\nThe app's primary focus is on providing a straightforward and secure local chat experience. Whether you're in an office, at home, or at an event, \"Ping to Chat\" enables instant messaging among connected devices, fostering direct and private conversations. It's the ideal solution for situations where internet access might be limited or where you prioritize direct, peer-to-peer communication over cloud-based services";
   static const String PingChat_GITHUB_URL =
       "https://github.com/AnandhuA/PingChat.git";
   static const String PingChat_WEB_URL =

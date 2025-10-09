@@ -50,8 +50,8 @@ class ImagePath {
       "$projectsDir/aerium-v2/aerium_v2_cover.png";
   static const String AERIUM_V2_LAST = "$projectsDir/aerium-v2/last.jpg";
 
-  // Drop
-  static const String DROP_COVER = "$projectsDir/drop/drop_cover.png";
+  // SocialMedia
+  static const String SocialMedia_COVER = "assets/images/socialmedia.png";
 
 
   // Travel
@@ -68,13 +68,13 @@ class ImagePath {
   static const String Netflix_COVER = "assets/images/netflix.png";
   static const String Netflix_SCREENS = "assets/images/netflix.png";
 
-  // Login Catalog
-  static const String LOGIN_CATALOG_COVER =
-      "$projectsDir/login_catalog/login_catalog_cover.jpg";
+  // MoneyManagement Catalog
+  static const String MoneyManagement_COVER =
+      "assets/images/moneymangement.png";
 
-  // OTP Textfield Package
-  static const String OTP_TEXTFIELD_COVER =
-      "$projectsDir/otp_package/otp_cover.png";
+  // PingChat Package
+  static const String PingChat_COVER =
+      "assets/images/pingchat.png";
 
   // Aerium
   static const String AERIUM_COVER =
