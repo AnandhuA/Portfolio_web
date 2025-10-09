@@ -179,6 +179,7 @@ class _HomePageHeaderState extends State<HomePageHeader>
                   ),
                 ],
               );
+              
             } else {
               return Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
