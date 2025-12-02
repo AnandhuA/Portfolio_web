@@ -42,15 +42,15 @@ class AboutHeader extends StatelessWidget {
                 width: widthOfScreen(context),
               ),
               SpaceH30(),
-              // ClipRRect(
-              //   borderRadius: BorderRadius.circular(80),
-              //   child: Image.asset(
-              //     ImagePath.DEV,
-              //     fit: BoxFit.cover,
-              //     width: widthOfScreen(context),
-              //     height: assignHeight(context, 0.45),
-              //   ),
-              // ),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(80),
+                child: Image.asset(
+                  ImagePath.DEV,
+                  fit: BoxFit.cover,
+                  width: widthOfScreen(context),
+                  height: assignHeight(context, 0.45),
+                ),
+              ),
             ],
           );
         } else {
@@ -75,8 +75,8 @@ class AboutHeader extends StatelessWidget {
                     minWidth: imageWidthLg,
                     maxHeight: assignHeight(context, 0.55),
                   ),
-                  // child: Image.asset(ImagePath.DEV,
-                  //   fit: BoxFit.cover,),
+                  child: Image.asset(ImagePath.DEV,
+                    fit: BoxFit.cover,),
                 ),
               ),
             ],
